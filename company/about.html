@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> Connect Financial :: Home</title>
+    <link rel="icon" type="image/png" href="../../assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../assets/css/app.css">
+    <link id="theme-sheet" rel="stylesheet" href="../../assets/css/core.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    <script>
+        $(document).ready(function(){
+           
+         $('#footer').load("../includes/footer.html");
+
+        });
+    </script>
+
+
+</head>
+
+<body class="is-theme-core">
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Hero (Parallax) and nav -->
+    <div class="hero parallax is-cover is-relative is-default is-bold" data-background="../../assets/img/banners/about-main-banner.jpg" data-color="#000" data-color-opacity="0.5">
+        
+    <!-- Hero and nav -->
+        <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand padding-20">
+                    <a class="navbar-item" href="../index.html">
+                        <img class="light-logo" src="../../assets/img/logos/connect-logo-white.svg" alt="Connect Financial">
+                        <img class="dark-logo switcher-logo" src="../../assets/img/logos/connect-logo.svg" alt="Connect Financial">
+                    </a>
+
+                   
+
+                    <!-- Responsive toggle -->
+                    <div class="custom-burger" data-target="nav-menu">
+                        <a class="responsive-btn" href="javascript:void(0);">
+                            <span class="menu-toggle">
+                              <span class="icon-box-toggle">    
+                                  <span class="rotate">
+                                      <i class="icon-line-top"></i>
+                                      <i class="icon-line-center"></i>
+                                      <i class="icon-line-bottom"></i> 
+                                  </span>
+                            </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /Responsive toggle -->
+                </div>
+
+                <!-- Navbar menu -->
+                <div id="nav-menu" class="navbar-menu">
+                     <!-- Navbar item -->
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
+                            <a class="navbar-link" href="#demos">
+                                Products
+                            </a>
+                            <div class="navbar-dropdown is-boxed is-medium">
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-credit-card half-size"></i>
+                                    <span>Cards</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-wallet half-size"></i>
+                                    <span>Wallets</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                   <i class="fas fa-exchange-alt half-size"></i>
+                                    <span>Buy/Sell</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Mobile dropdown -->
+                        <div class="mobile-drop is-hidden-desktop">
+                            <div class="mobile-drop-trigger">
+                                Products <i class="material-icons">keyboard_arrow_right</i>
+                            </div>
+                            <div class="child-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Cards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wallets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Buy/Sell</a>
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
+
+
+                         <!-- Navbar item -->
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
+                            <a class="navbar-link" href="#demos">
+                                Company
+                            </a>
+                            <div class="navbar-dropdown is-boxed is-medium">
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-info-circle half-size"></i>
+                                    <span>About</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-fingerprint half-size"></i>
+                                    <span>Security</span>
+                                </a>
+                                <!-- Dropdown item -->
+                               <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-hands-helping half-size"></i>
+                                    <span>Support</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Mobile dropdown -->
+                        <div class="mobile-drop is-hidden-desktop">
+                            <div class="mobile-drop-trigger">
+                                Company <i class="material-icons">keyboard_arrow_right</i>
+                            </div>
+                            <div class="child-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
+
+                    <!-- Navbar Start -->
+                    <div class="navbar-item is-button topmargin-xxxsm">
+                            <a id="#signup-btn" href="#" class="navbar-item is-slide scroll-link">
+                                Contact
+                            </a>                       
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+                        <!-- Signup button -->
+                        <div class="navbar-item is-button topmargin-xxsm">
+                            <a id="#signup-btn" href="#" class="navbar-item is-slide scroll-link">
+                                Login
+                            </a>
+                            <a id="#signup-btn" href="#" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
+                                Sign Up
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+      
+
+
+        <!-- Hero text -->
+        <div id="main-hero" class="hero-body pt-80 pb-80">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-6 is-offset-3 has-text-centered is-header-caption">
+                        <h1 class="title is-spaced main-title is-2">Just like you, we believe in the future of finance.</h1>
+                        <h2 class="subtitle is-5 light-text">
+                           We empower people and businesses to connect more with their digital ../assets, everyday life and future financial goals. Be in complete control of your money, data and identity.
+                        </h2>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Benefit Boxes-->
+    <div id="start" class="section topmargin-md" style="margin-top: -50px;">
+        <div class="container">
+            <div class="columns is-multiline is-flex-portrait">
+                <!-- Benefit box -->
+                <div class="column is-one-third flex-portrait-4">
+                    <div class="flex-card is-feature padding-30">
+                        <!-- Icon -->
+                        <div class="icon-container is-first is-icon-reveal">
+                            <img src="../assets/img/icons/icon-about-begin.svg" alt="Beginning">
+                        </div>
+                        <!-- Content -->
+                        <div class="content-container has-text-centered pb-4">
+                            <h3>Our Beginning</h3>
+                            <p>Connect Financial has been founded by a team with over X years of collective working in financial technology and international banking. Our advisory board has extensive experience in blue-chip organisations and financial institutions to support our business developments. Our foundation is built by experience to quantify our decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit box -->
+                <div class="column is-one-third flex-portrait-4">
+                    <div class="flex-card is-feature padding-30">
+                        <!-- Icon -->
+                        <div class="icon-container is-second is-icon-reveal">
+                            <img src="../assets/img/icons/icon-about-mission.svg" alt="Mission">
+                        </div>
+                        <!-- Content -->
+                        <div class="content-container has-text-centered pb-4">
+                            <h3>Our Mission</h3>
+                            <p>We strive to build leading-edge and innovative blockchain payment technology. We are transforming how people and businesses connect their crypto and fiat in one holistic platform solution. Digital assets maximise while enjoying all its benefits to be utilised in everyday purchases without losing any holding investment.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit box -->
+                <div class="column is-one-third flex-portrait-4">
+                    <div class="flex-card is-feature padding-30">
+                        <!-- Icon -->
+                        <div class="icon-container is-third is-icon-reveal">
+                            <img src="../assets/img/icons/icon-about-values.svg" alt="Values">
+                        </div>
+                        <!-- Content -->
+                        <div class="content-container has-text-centered pb-4">
+                            <h3>Our Values</h3>
+                            <p>We think big and smart. Our team is determined to inspire continued innovation for cryptocurrency and create solutions to optimise individuals financial goals. Through collaboration and recognition of each other’s talents, we nurture each other’s ideas and believe that great ideas can come from anywhere, regardless of corporate status.</p>
+                        </div>
+                    </div>
+                </div>
+          
+            </div>
+        </div>
+    </div>
+
+
+      <!--Supporting Crypto-->
+    <div id="solution" class="section">
+        <div class="container">
+
+                      <!-- Feature -->
+            <div class="columns is-vcentered">
+
+                <div class="column is-4 is-offset-1">
+                    <h2 class="title quick-feature is-smaller text-bold no-margin">
+                       Supporting Crypto.
+                       
+                    </h2>
+                    <div class="title-divider topmargin-sm bottommargin-sm"></div>
+                    <span class="section-feature-description">With the rapid growth in our online eco-system we believe everyone:
+                       <div class="content">
+                            <ul>
+                                <li>Should have full control of their crypto, money and investments.</li>
+                                <li>Not be limited to money vs digital assets.</li>
+                                <li>Have security and control of their personal data and identity online.</li>
+                                <li>Have worldwide financial flexibility.</li>
+                            </ul>
+                        </div>
+
+                    </span>
+                   
+                </div>
+
+                <div class="column is-6 is-offset-1 has-text-centered is-hidden-mobile">
+                    <div class="masked-image">
+                        <img class="main-image" src="../assets/img/support-crypto.jpg" alt="Supporting Crypto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+   
+
+    <!-- Parallax Icon counter -->
+    <div class="section is-medium parallax is-cover is-relative" data-background="../assets/img/banners/parallax-bg-basic1.jpg" data-color="#4b078f" data-color-opacity="0.3" >
+        <div class="container topmargin-xlg">
+            <div class="section-title-wrapper">
+                <h2 class="title section-title has-text-centered light-text" style="font-size: 55px;">
+                    <b>Join Our Team.</b>
+                 </h2>
+                 <p class="section-subtitle has-text-centered light-text">We are always looking for talented people who hold the same beliefs and innovative thinking towards crypto and fiat. </p>
+                </h2>
+                <div class="has-text-centered">
+                 <a href="#" class="button button-cta secondary-btn rounded">Join Us</a>
+                </div>
+
+            </div>
+
+          
+        </div>
+    </div>
+
+
+
+
+         <!-- Somethings Coming -->
+        <div class="container has-text-centered topmargin-sm">
+                <div class="columns is-vcentered">
+                    <div class="column is-7 signup-column has-text-left">
+
+                        <h1 class="title main-title dark-text text-bold is-2">
+                            Somethings Coming...
+                        </h1>
+                        <h2 class="subtitle is-5 no-margin-bottom body-color">
+                           Join the waitlist to be the first to know and experience our innovative connect mobile app. Designed to bring simplicity to everyday purchases, credit and crypto holdings.  
+                        </h2>
+                        <br>
+                        <!-- Signup form -->
+                        <div class="topmargin-xxsm">
+                            <form>
+                                <div class="control">
+                                    <input type="email" class="input" placeholder="Enter First Name"><br><br>
+                                    <input type="email" class="input" placeholder="Enter Last Name"><br><br>
+                                    <input type="email" class="input" placeholder="Enter Email"><br><br>
+                                    <button type="submit" class="button btn-align primary-btn rounded">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="column is-5">
+                        <!-- Hero mockup -->
+                        <figure class="image blob-figure">
+                            <img class="animated preFadeInUp fadeInUp" src="../assets/img/inline-app-intro.png" alt="">
+                        </figure>
+                    </div>
+                </div>
+
+
+
+              
+            </div>
+            <!-- END Somethings Coming -->
+
+
+          <!-- Somethings Coming -->
+        <div class="container has-text-centered topmargin-sm bottommargin-md">
+            <hr>
+                <div class="columns is-vcentered">
+                    <div class="column is-9 signup-column has-text-left">
+
+                         <h2 class="subtitle is-5 no-margin-bottom body-color">
+                        <b>We've got your back.</b>
+                        <br>
+                        Whether you have questions about our products or need support - we’re here to help. Our dedicated agents are ready 24/7 to assist you and only a click away.   
+                    </h2>
+                       
+                    </div>
+                    <div class="column is-3">
+                        <!-- Hero mockup -->
+                        <figure class="image blob-figure">
+                           <a href="#" class="button button-cta secondary-btn btn-outlined rounded">Request Support</a>
+                        </figure>
+                    </div>
+                </div>
+               
+
+
+
+                
+            </div>
+
+
+    
+
+    <!-- Dark footer -->
+ <div id="footer"></div>
+
+    <!-- /Dark footer -->
+
+
+   
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+  
+
+
+
+  
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/core.js"></script>
+</body>
+
+</html>
