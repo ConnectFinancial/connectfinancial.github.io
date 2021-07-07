@@ -24,53 +24,132 @@
     <nav class="navbar navbar-landing nav-light is-transparent is-fixed-top is-faded">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
-                    <img class="light-logo" src="assets/img/logos/logo/bulkit-square-white.svg" width="28" height="28" alt="">
-                    <img class="dark-logo switcher-logo-square is-hidden" src="assets/img/logos/logo/bulkit-square-core.svg" width="28" height="28" alt="">
+                <a class="navbar-item" href="../index.html">
+                    <img class="light-logo" src="../assets/img/logos/connect-logo-white.svg" width="175"  alt="">
+                    <img class="dark-logo switcher-logo-square is-hidden" src="../assets/img/logos/connect-logo.svg" width="175"  alt="">
                 </a>
 
-                <!-- Sidebar Trigger -->
-                <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
-                    <span class="menu-toggle">
-                        <span class="icon-box-toggle">
-                            <span class="rotate">
-                                <i class="icon-line-top"></i>
-                                <i class="icon-line-center"></i>
-                                <i class="icon-line-bottom"></i>
-                            </span>
-                    </span>
-                    </span>
-                </a>
-
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
             </div>
 
-            <div class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="#main-features" class="navbar-item has-hover scroll-link">
-                        Features
-                    </a>
+          
+                <!-- Navbar menu -->
+                <div id="nav-menu" class="navbar-menu">
+                     <!-- Navbar item -->
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
+                            <a class="navbar-link" href="#demos">
+                                Products
+                            </a>
+                            <div class="navbar-dropdown is-boxed is-medium">
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-credit-card half-size"></i>
+                                    <span>Cards</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-wallet half-size"></i>
+                                    <span>Wallets</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                   <i class="fas fa-exchange-alt half-size"></i>
+                                    <span>Buy/Sell</span>
+                                </a>
+                                 <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                   <i class="fas fa-coins"></i>
+                                    <span>Tokens</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Mobile dropdown -->
+                        <div class="mobile-drop is-hidden-desktop">
+                            <div class="mobile-drop-trigger">
+                                Products <i class="material-icons">keyboard_arrow_right</i>
+                            </div>
+                            <div class="child-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Cards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Wallets</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Buy/Sell</a>
+                                    </li>  
+                                    <li>
+                                        <a href="#">Tokens</a>
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
 
-                    <a href="#pricing" class="navbar-item has-hover scroll-link">
-                        Pricing
-                    </a>
-                </div>
 
-                <div class="navbar-end has-hover">
-                    <a class="navbar-item">
-                        Login
-                    </a>
-                    <div class="navbar-item">
-                        <a href="#" class="button button-signup is-bold  primary-btn">Sign Up</a>
+                         <!-- Navbar item -->
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
+                            <a class="navbar-link" href="#demos">
+                                Company
+                            </a>
+                            <div class="navbar-dropdown is-boxed is-medium">
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="company/about.html">
+                                    <i class="fas fa-info-circle half-size"></i>
+                                    <span>About</span>
+                                </a>
+                                <!-- Dropdown item -->
+                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-fingerprint half-size"></i>
+                                    <span>Security</span>
+                                </a>
+                                <!-- Dropdown item -->
+                               <a class="navbar-item is-menu bottommargin-xsm" href="#">
+                                    <i class="fas fa-hands-helping half-size"></i>
+                                    <span>Support</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Mobile dropdown -->
+                        <div class="mobile-drop is-hidden-desktop">
+                            <div class="mobile-drop-trigger">
+                                Company <i class="material-icons">keyboard_arrow_right</i>
+                            </div>
+                            <div class="child-menu">
+                                <ul>
+                                    <li>
+                                        <a href="company/about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
+
+                    <!-- Navbar Start -->
+                    <div class="navbar-item is-button topmargin-xxxsm">
+                            <a  href="#" class="navbar-item is-slide scroll-link">
+                                Contact
+                            </a>                       
+                    </div>
+
+                    <!-- Navbar end -->
+                    <div class="navbar-end">
+                        <!-- Signup button -->
+                        <div class="navbar-item is-button topmargin-xxsm">
+                            <p><a href="#" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
+                                Login
+                            </a></p>
+                            <a href="#" class="button button-cta btn-align secondary-btn btn-solid is-bold rounded">
+                                Sign Up
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <div class="hero type-1 parallax is-cover is-relative is-fullheight" data-background="https://via.placeholder.com/1920x1280" data-color="#837FCB" data-color-opacity=".3" data-demo-background="/assets/img/demo/hero-3.jpg">
         <img class="hero-shape-commerce" src="assets/img/graphics/legacy/cut-shape-v2.svg" alt="">
         <!-- Hero caption -->
