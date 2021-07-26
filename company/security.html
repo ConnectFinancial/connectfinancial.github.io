@@ -180,10 +180,10 @@
                     <div class="navbar-end">
                         <!-- Signup button -->
                          <div class="navbar-item is-button topmargin-xxsm">
-                            <p><a href="https://client.connect.financial/" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
+                            <p><a href="https://client.connect.financial/" target="_blank" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
                                 Login
                             </a></p>
-                            <a href="https://client.connect.financial/#/auth/register" class="button button-cta btn-align secondary-btn btn-solid is-bold rounded">
+                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class="button button-cta btn-align secondary-btn btn-solid is-bold rounded">
                                 Sign Up
                             </a>
                         </div>
@@ -201,7 +201,7 @@
                     <div class="column is-6 is-offset-3 has-text-centered is-header-caption" data-animate="fadeIn" data-delay="200">
                         <h1 class="title is-spaced main-title is-2">Security Above All Else.</h1>
                         <h2 class="subtitle is-5 light-text">
-                           Trust your storage and crypto credit card with trust and confidence through our industry-leading security protocols and multi-layered protocols. 
+                           Store your assets with complete trust with our industry-leading security protocols and multi-layered authentication. 
                         </h2>
                         <br />
                     </div>
@@ -223,7 +223,7 @@
                     </h2>
                     <div class="title-divider topmargin-sm bottommargin-sm"></div>
 
-                        <span class="section-feature-description">Our leading security architects take a comprehensive approach in protecting your crypto holdings, investments, stored money and crypto card activity. We have built numerous sophisticated measures to prevent the theft of crypto, money or your information. We understand the imperative importance of absolute trust and security to support your online financial endeavours. 
+                        <span class="section-feature-description">Our security infrastructure team take a holistic approach in protecting your crypto holdings, investments, stored money and crypto card activity. We have built numerous sophisticated measures to prevent the theft of crypto, money and your personal information. We understand the importance of security when you trust your assets with us. 
                         <br><br>
                         Connect Financial offers financial stability, with healthy reserves, numerous banking relationships and the highest legal compliance standards globally and per localized region.
                         </span>
@@ -312,7 +312,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">Google Oauth</h5>
-                           At first touch, we ensure only you have access to Google's Oauth sign-in to enforce leading security and login protocols.
+                           Your login is granted through your Google account and OAuth 2.0, the industry's leading protocol for authorization.
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">2FA & Biometrics</h5>
-                            Protecting your account with the leading 2FA Google Authenticator and biometric authentication methods to keep your account secure.
+                            Your account is protected through 2FA and biometric authentication methods, keeping your account secured at all times.
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">Non-Custodial Wallet</h5>
-                            Non-custodial wallet with complete encryption key control and sensitive data is fully encrypted at rest and in transit.
+                            Our non-custodial wallets are encrypted at rest and in transit through industry-leading encryption keys that you retain control over.
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">Insurance</h5>
-                           Enjoy premium protection of your digital portfolio with insurance on your assets up to $1 Million per account.
+                           Enjoy premium protection of your digital portfolio assets and insure your portfolio up to $1M per account.
                         </div>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">Security Monitoring</h5>
-                            Constant, real-time monitoring for any threat activity and account timeout sessions for an additional layer of protection.
+                            Constant threat monitoring and account timeout sessions provide additional real-time layers of protection.
                         </div>
                     </div>
                 </div>
@@ -378,7 +378,7 @@
                         </div>
                         <div class="dark-text has-text-left ml-30">
                             <h5 class="text-bold color-primary">Transaction Security</h5>
-                            Email confirmation for wallet and card activity with 2FA and biometric authentication option at the point of transaction.
+                            Email confirmation and 2FA authorization are required for wallet and card activity, including at point-of-transaction﻿﻿﻿﻿.
                         </div>
                     </div>
                 </div>
@@ -406,11 +406,11 @@
 
                 <div class="column is-4 is-offset-1">
                     <h2 class="title quick-feature is-smaller text-bold no-margin">
-                       Experience advanced security built-in.
+                       Criminals don't rest. Neither do we.
                        
                     </h2>
                     <div class="title-divider topmargin-sm bottommargin-sm"></div>
-                    <span class="section-feature-description">You can rest assured your connect wallet is lead-edge through ongoing platform updates and heavy investment into ongoing security and privacy awareness training.
+                    <span class="section-feature-description">Our platform is constantly updated to ensure the highest standards of digital security are maintained. We invest heavily in ongoing privacy and security training for our staff and vendors.
                        
                     </span>
                    
@@ -548,6 +548,33 @@
 
     <script src="../assets/js/app.js"></script>
     <script src="../assets/js/core.js"></script>
+            <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
 </body>
 
 </html>

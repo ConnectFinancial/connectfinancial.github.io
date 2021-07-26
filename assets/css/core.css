@@ -1,5 +1,5 @@
-/*! Bulkit | 5.0 | 
-CSS Ninja *//*! Bulkit | 
+/*! | 5.0 | 
+CSS Ninja *//*! | 
 5.0 | CSS Ninja 
 */var {
 	font-style: normal;
@@ -35220,8 +35220,8 @@ input[type=range].slider.is-danger::-ms-track {
 	height: 38px !important;
 }.Wallop--scale .Wallop-item--hidePrevious,.Wallop--scale .Wallop-item--hideNext {
 	visibility: visible;
-	-webkit-animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
-	animation: scaleOut 350ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+	-webkit-animation: scaleOut 900ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
+	animation: scaleOut 900ms cubic-bezier(0.55, 0.055, 0.675, 0.19) both;
 }
 
 .Wallop--scale .Wallop-item--hidePrevious,.Wallop--scale .Wallop-item--hideNext {
@@ -35250,8 +35250,9 @@ input[type=range].slider.is-danger::-ms-track {
 
 .Wallop--fade .Wallop-item--hidePrevious,.Wallop--fade .Wallop-item--hideNext {
 	visibility: visible;
-	-webkit-animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-	animation: fadeOut 450ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	-webkit-animation: fadeOut 2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+	animation: fadeOut 2500ms cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+
 }
 
 .Wallop--fade .Wallop-item--hidePrevious,.Wallop--fade .Wallop-item--hideNext {
@@ -35451,6 +35452,8 @@ input[type=range].slider.is-danger::-ms-track {
 
 .Wallop--v2 {
 	top: -65px;
+
+
 }
 
 .Wallop--v2 .Wallop-list {

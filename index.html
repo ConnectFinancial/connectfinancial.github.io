@@ -186,10 +186,10 @@
                     <div class="navbar-end">
                         <!-- Signup button -->
                         <div class="navbar-item is-button topmargin-xxsm">
-                           <p><a href="https://client.connect.financial/" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
+                           <p><a href="https://client.connect.financial/" target="_blank" class="button button-cta btn-align secondary-btn btn-outlined is-bold rounded">
                                 Login
                             </a></p>
-                            <a href="https://client.connect.financial/#/auth/register" class="button button-cta btn-align secondary-btn btn-solid is-bold rounded">
+                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class="button button-cta btn-align secondary-btn btn-solid is-bold rounded">
                                 Sign Up
                             </a>
                         </div>
@@ -200,7 +200,7 @@
       
 
       <!-- Hero Wallop Slider -->
-        <div class="Wallop Wallop--v2 Wallop--fade" data-autoplay="11000" data-speed="15000" data-loop="true">
+        <div class="Wallop Wallop--v2 Wallop--fade" data-autoplay="110000" data-speed="950" data-loop="true">
             <div class="Wallop-list">
                 <!-- Slide -->
                 <div class="Wallop-item Wallop-item--current has-background-image" data-background="assets/img/banners/hp-main-banner-connect1.jpg">
@@ -213,7 +213,9 @@
                                         <h1>CONNECT<br> <span style="color:#8c8cf9;">Your Crypto.</span> Your World. Your Life.</h1>
                                         <div class="caption-divider"></div>
                                         <div class="caption-text">
-                                            <span>Enjoy complete flexibility with a Visa credit card powered by your crypto holdings with zero-touch on your coin value. It’s time to live more and do more with your crypto and get the credit you want and not what you're told. </span>
+                                            <span>Enjoy complete flexibility with a Visa credit card powered by your crypto holdings with zero-touch on your coin value. It's time to do more with your crypto by getting the credit you want without credit checks or lengthy approvals. 
+
+                                            </span>
                                             <div class="action col-first">
                                                 <a href="products/cards.html" class="button button-cta secondary-btn rounded">Learn More</a>
                                             </div>
@@ -235,7 +237,7 @@
                                         <h1><span style="color:#FBB040;">Multiple Wallets.</span><br> Hundreds of Coins.<br> Full Flexibility. </h1>
                                         <div class="caption-divider"></div>
                                         <div class="caption-text">
-                                            <span>From basic wallets through to interest earning and vault wallets easily manage all your assets whether cash or major crypto coins including BTC, ETH and LTC. Making it easy to organize and manage your finances and investments.</span>
+                                            <span>From basic wallet through to interest-earning vault wallets, easily manage all of your assets including cash, BTC, ETH and LTC. Connect makes it easy to organize and manage your finances and investments.</span>
                                             <div class="action col-first">
                                                 <a href="products/wallets.html" class="button button-cta secondary-btn rounded">Learn More</a>
                                             </div>
@@ -259,7 +261,7 @@
                                         <h1>Discover Your World <span style="color:#8c8cf9;">On Crypto </span>& Travel in Comfort. </h1>
                                         <div class="caption-divider"></div>
                                         <div class="caption-text">
-                                            <span>Connect’s Visa Crypto Credit Cards are accepted in more than 200 countries at over 46 million merchant locations. Providing a secure and reliable way to explore your world on your crypto without losing its holding investment. </span>
+                                            <span>Connect's Visa Crypto Credit Cards are accepted at more than 46 million merchant locations in over 200 countries. We provide a secure and reliable way to explore your world using crypto, without losing its holding investment. ﻿﻿﻿</span>
                                             <div class="action col-first">
                                                 <a href="products/cards.html#crypto-cards-features" class="button button-cta secondary-btn rounded">Learn More</a>
                                             </div>
@@ -523,7 +525,7 @@
                     <div class="column is-7 signup-column has-text-left">
 
                         <h1 class="title main-title dark-text text-bold is-2">
-                            Something's Coming...
+                            Stay Updated.
                         </h1>
                         <h2 class="subtitle is-5 no-margin-bottom body-color">
                            Join the waitlist to be the first to know and experience our innovative connect mobile app. Designed to bring simplicity to everyday purchases, credit and crypto holdings.  
@@ -667,6 +669,33 @@
 
     <script src="assets/js/app.js"></script>
     <script src="assets/js/core.js"></script>
+            <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+
 </body>
 
 </html>
