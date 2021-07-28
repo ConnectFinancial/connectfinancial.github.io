@@ -53048,9 +53048,9 @@ pre {
 	background-position: center left;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: 20% 20%;
+	background-position: 50% 50%;
 	vertical-align: top;
-	padding: 800px 0px 30px 30px;
+	padding: 800px 30px 30px 30px;
 }
 
 body.is-theme-core .phone-slide.is-first {
@@ -53061,26 +53061,22 @@ body.is-theme-core .phone-slide.is-first {
 
 body.is-theme-core .phone-slide.is-second {
 	background-image: url(../img/cards/inline-card-works2.png);
-	width:95%;
-	height:100px;
+
 }
 
 body.is-theme-core .phone-slide.is-third {
 	background-image: url(../img/cards/inline-card-works3.png);
-	width:95%;
-	height:100px;
+
 }
 
 body.is-theme-core .phone-slide.is-fourth {
 	background-image: url(../img/cards/inline-card-works4.png);
-	width:95%;
-	height:100px;
+
 }
 
 body.is-theme-core .phone-slide.is-fifth {
 	background-image: url(../img/cards/inline-card-works5.png);
-	width:95%;
-	height:100px;
+
 }
 
 
