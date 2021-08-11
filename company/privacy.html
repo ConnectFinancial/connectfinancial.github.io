@@ -96,21 +96,21 @@
                             <div class="navbar-dropdown is-boxed is-medium">
                                 <!-- Dropdown item -->
                                 <a class="navbar-item is-menu bottommargin-xsm" href="../products/cards.html">
-                                    <i class="fas fa-credit-card half-size"></i>
+                                    <!--<i class="fas fa-credit-card half-size"></i>-->
                                     <span>Cards</span>
                                 </a>
                                 <!-- Dropdown item -->
                                 <a class="navbar-item is-menu bottommargin-xsm" href="../products/wallets.html">
-                                    <i class="fas fa-wallet half-size"></i>
+                                    <!--<i class="fas fa-wallet half-size"></i>-->
                                     <span>Wallets</span>
                                 </a>
                                 <!-- Dropdown item-->
                                 <a class="navbar-item is-menu bottommargin-xsm" href="../products/wallets.html#buy-sell-otc">
-                                   <i class="fas fa-exchange-alt half-size"></i>
+                                   <!--<i class="fas fa-exchange-alt half-size"></i>-->
                                     <span>Buy/Sell</span>
                                 </a>
                                  <a class="navbar-item is-menu bottommargin-xsm" href="../products/wallets.html#tokens">
-                                   <i class="fas fa-coins"></i>
+                                   <!--<i class="fas fa-coins"></i>-->
                                     <span>Tokens</span>
                                 </a>
                             </div>
@@ -147,17 +147,17 @@
                             <div class="navbar-dropdown is-boxed is-medium">
                                 <!-- Dropdown item -->
                                 <a class="navbar-item is-menu bottommargin-xsm" href="about.html">
-                                    <i class="fas fa-info-circle half-size"></i>
+                                   <!--<i class="fas fa-info-circle half-size"></i>-->
                                     <span>About</span>
                                 </a>
                                 <!-- Dropdown item -->
                                 <a class="navbar-item is-menu bottommargin-xsm" href="security.html">
-                                    <i class="fas fa-fingerprint half-size"></i>
+                                    <!--<i class="fas fa-fingerprint half-size"></i>-->
                                     <span>Security</span>
                                 </a>
                                 <!-- Dropdown item -->
                                <a class="navbar-item is-menu bottommargin-xsm" href="contact.html">
-                                    <i class="fas fa-at half-size"></i>
+                                   <!--<i class="fas fa-at half-size"></i>-->
                                     <span>Contact</span>
                                 </a>
                             </div>
@@ -462,32 +462,17 @@
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <script src="../assets/js/app.js"></script>
     <script src="../assets/js/core.js"></script>
-            <script>
-        $(document).ready(function(){
-          // Add smooth scrolling to all links
-          $("a").on('click', function(event) {
+    <script>
+           document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
-
-              // Store hash
-              var hash = this.hash;
-
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
-          });
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
-        </script>
+    });
+    </script>
 
 </body>
 
