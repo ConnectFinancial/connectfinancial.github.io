@@ -20,6 +20,9 @@ i {
 	font-family: "Poppins",sans-serif;
 }
 
+.rounded {
+	border-radius: 6px;
+}
 
 .pageloader {
 	background-color: #26A3C6 
@@ -48845,6 +48848,7 @@ pre {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	border-radius: 6px;
 }
 
 .contact-card .icon i {
