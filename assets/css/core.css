@@ -20,6 +20,117 @@ i {
 	font-family: "Poppins",sans-serif;
 }
 
+
+.gradient-text-blues {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #B1D4E5, #00c9e6);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-orange {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #fbc340, #f15a02);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-gold-red {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #ED9B24, #D33D35);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+.gradient-text-blue-green {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #26A3C6, #50C95B);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-dkblue-green {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #10555A, #00A280);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-dkblue-teal-green {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #10555A, #009d9e, #00A280);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-dkblue-lightblue {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #00597C, #26A3C6, #B1D4E5);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-green-orange {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #00a280, #ee7323);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-cardhue {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #10555a, #26a3c6, #48a553, #dcbe2a, #ee7323);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-purple-blue {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #561e92, #2754ba, #123962);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
 .rounded {
 	border-radius: 6px;
 }
@@ -481,6 +592,8 @@ table th {
 .topmargin-xxmd { margin-top: 40px !important; }
 
 .topmargin-lg { margin-top: 45px !important; }
+
+.topmargin-lg2 { margin-top: px !important; }
 
 .topmargin-xlg { margin-top: 80px !important; }
 
@@ -7379,6 +7492,9 @@ a.panel-block:hover,label.panel-block:hover {
 .columns.is-mobile>.column.is-offset-1 {
 	margin-left: 8.3333333333%;
 }
+
+
+
 
 .columns.is-mobile>.column.is-2 {
 	-webkit-box-flex: 0;
@@ -17547,7 +17663,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section.section-feature-grey {
-	background-color: #fbfbfb;
+	background-color: #f8f8f9;
 }
 
 .section.section-header-grey {
@@ -17758,22 +17874,31 @@ body::-webkit-scrollbar-thumb {
 	font-size: 2.7rem;
 	color: #a9abac;
 	font-weight: bold;
-	font-family: "Nexa Bold",sans-serif;
+	font-family: "Poppins",sans-serif;
 }
 
 .section .title.section-subtitle {
 	font-size: 1.8rem;
 	color: #a9abac;
+	font-family: "Poppins",sans-serif;
 }
 
 .section .title.quick-feature {
 	font-size: 2.7rem;
 	color: #444f60;
 	position: relative;
+	font-family: "Poppins",sans-serif;
 }
 
+
 .section .title.quick-feature.is-smaller {
-	font-size: 2.2rem;
+	font-size: 2.7rem;
+	font-family: "Poppins",sans-serif;
+}
+
+.section .title.quick-feature.is-smaller span{
+	font-size: 2.7rem;
+	font-family: "Poppins",sans-serif;
 }
 
 .section .title.quick-feature.is-bigger {
@@ -17807,7 +17932,63 @@ body::-webkit-scrollbar-thumb {
 	width: 80px;
 	height: 5px;
 	background: #00AEEA;
+
+
 }
+
+.section .title-divider-teal {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #00A280;
+}
+
+
+
+.section .title-divider-silver {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #BCBEC0;
+}
+
+.section .title-divider-yellow {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #DCBE2A;
+}
+
+.section .title-divider-gold {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #DB953C;
+}
+
+.section .title-divider-orange {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #EE7323;
+}
+
+
+.section .title-divider-red {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #D33D35;
+}
+
+
+.section .title-divider-dkred {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #BE1E2D;
+}
+
 
 .section .title-divider.is-right {
 	margin-left: auto;
@@ -17825,7 +18006,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section .section-feature-description {
-	color: #878787;
+	color: #000000;
 }
 
 .section .media.icon-box {
@@ -38107,7 +38288,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .body-text {
-	color: #8e9baf;
+	color: #414042;
 	font-family: "Roboto",sans-serif;
 	font-size: 1.2rem;
 }
@@ -39024,13 +39205,17 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .is-feature .content-container h3 {
 	padding: 10px 0;
-	font-family: "Nexa Bold",sans-serif;
+	font-family: "Poppins",sans-serif;
+	font-size: 17px;
+	font-weight: 700;
 }
 
 .is-feature .content-container p {
-	font-size: .95rem;
-	font-family: "Roboto",sans-serif;
-	color: #999;
+	font-size: 14px;
+	font-family: "Poppins",sans-serif;
+	color: #414042;
+	padding: 10px 10px 10px 10px;
+
 }
 
 .is-feature2 {
@@ -39120,15 +39305,21 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .is-feature2 .content-container h3 {
 	padding: 10px 0;
-	font-family: "Nexa Bold",sans-serif;
+	font-family: "Poppins",sans-serif;
+	font-size: 17px;
+	font-weight: 700;
 }
 
 .is-feature2 .content-container p {
-	font-size: .95rem;
-	font-family: "Roboto",sans-serif;
-	color: #999;
+	font-size: 14px;
+	font-family: "Poppins",sans-serif;
+	color: #414042;
+	padding: 10px 10px 10px 10px;
 }
 
+
+
+	
 
 .icon-feature {
 	display: -webkit-box;
@@ -52284,7 +52475,7 @@ pre {
 }
 
 .is-single-post .featured-post-body blockquote {
-	font-family: "Roboto",sans-serif;
+	font-family: "Poppins",sans-serif;
 	font-size: 1.1rem;
 	background: #f5f6fa;
 	border-color: #26A3C6;
@@ -52301,7 +52492,7 @@ pre {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	font-family: "Roboto",sans-serif;
+	font-family: "Poppins",sans-serif;
 	letter-spacing: 1px;
 	font-size: 1.1rem;
 	padding-bottom: 1.25rem;
