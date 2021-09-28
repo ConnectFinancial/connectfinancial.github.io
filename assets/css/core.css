@@ -131,6 +131,61 @@ i {
 }
 
 
+
+.gradient-text-tokenshue {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #123962, #2754ba, #00aee6, #799eb2);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-tokenshue2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #2754ba, #00aee6);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-tokenshue3 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #4cc2e3, #25f8f9);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-otchue1 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #006838, #009444, #8dc63f);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-otchue2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #f68c3e, #fbb040);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
 .rounded {
 	border-radius: 6px;
 }
@@ -17973,6 +18028,13 @@ body::-webkit-scrollbar-thumb {
 	background: #EE7323;
 }
 
+.section .title-divider-orange2 {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #fbb040;
+}
+
 
 .section .title-divider-red {
 	margin: 10px 0;
@@ -17987,6 +18049,15 @@ body::-webkit-scrollbar-thumb {
 	width: 80px;
 	height: 5px;
 	background: #BE1E2D;
+}
+
+
+
+.section .title-divider-green {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #009444;
 }
 
 
@@ -53995,7 +54066,7 @@ pre {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background: #F5F5FC;
+	background: #ebf4f7;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -54028,7 +54099,7 @@ pre {
 	position: absolute;
 	top: 13px;
 	right: 0;
-	background: #26A3C6;
+	background: #00aee6;
 	color: #fff;
 	display: -webkit-box;
 	display: -ms-flexbox;
