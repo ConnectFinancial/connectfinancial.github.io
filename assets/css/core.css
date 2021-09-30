@@ -87,6 +87,53 @@ i {
 }
 
 
+
+.gradient-text-teals {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #009ba8, #1eb8bc);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-teal-blue-purple {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #009ba8, #0066a0, #91287a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+.gradient-text-blue-purple {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #009ba8, #0066a0, #91287a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-blue-purple2 {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #0066a0, #91287a);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+
 .gradient-text-dkblue-lightblue {
     background-color: #f3ec78;
     background-image: linear-gradient(75deg, #00597C, #26A3C6, #B1D4E5);
@@ -96,6 +143,19 @@ i {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
+
+
+.gradient-text-security {
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #004F6C,  #26A3C6);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
 
 
 .gradient-text-green-orange {
@@ -17749,6 +17809,7 @@ body::-webkit-scrollbar-thumb {
 	background-color: #f5f6fa;
 }
 
+
 .section.is-grey {
 	background: #fbfbfb;
 }
@@ -17996,6 +18057,13 @@ body::-webkit-scrollbar-thumb {
 	width: 80px;
 	height: 5px;
 	background: #00A280;
+}
+
+.section .title-divider-purple {
+	margin: 10px 0;
+	width: 80px;
+	height: 5px;
+	background: #91287a;
 }
 
 
@@ -18333,6 +18401,26 @@ body::-webkit-scrollbar-thumb {
 .hero.is-app-grey {
 	background-color: #f5f6fa;
 }
+
+
+.hero.is-app-teal-purple{
+	background-image: linear-gradient(to right, #04577c, #91287a);
+}
+
+.hero.is-app-earn{
+	background-image: url(../img/banners/main-earn-banner.jpg);
+	background-repeat: no-repeat, repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+.hero.is-app-coins{
+	background-image: linear-gradient(to right, #04577c, #91287a);
+}
+
+
 
 .hero.is-app-grey .title {
 	color: #444f60 !important;
@@ -41883,7 +41971,7 @@ a:not(.button).is-link {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	top: 0;
+	top: -50px;
 	left: 0;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -41893,9 +41981,9 @@ a:not(.button).is-link {
 }
 
 .starfall .falling-star {
-	width: 8px;
-	height: 8px;
-	background: #26A3C6;
+	width: 50px;
+	height: 50px;
+
 	position: absolute;
 	border-radius: 50%;
 	opacity: .5;
