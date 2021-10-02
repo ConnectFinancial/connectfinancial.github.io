@@ -36960,6 +36960,24 @@ input[type=range].slider.is-danger::-ms-track {
 	margin: 30px 30px 30px 0px;
 }
 
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-divider-green {
+	width: 30%;
+	height: 3px;
+	background: #009D9E;
+	padding: 3px 3px 3px 3px;
+	border-radius: 3px;
+	margin: 30px 30px 30px 0px;
+}
+
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-divider-purple {
+	width: 30%;
+	height: 3px;
+	background: #8e74b3;
+	padding: 3px 3px 3px 3px;
+	border-radius: 3px;
+	margin: 30px 30px 30px 0px;
+}
+
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-text {
 	color: #fff;
 	font-size: 1.25rem;
