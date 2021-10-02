@@ -65,9 +65,9 @@
             <div class="container">
                 <!-- Brand -->
                 <div class="navbar-brand padding-20">
-                    <a class="navbar-item" href="../index.html">
-                        <img class="light-logo" src="../../assets/img/logos/cf-logo-white.svg" alt="Connect Financial">
-                        <img class="dark-logo switcher-logo" src="../../assets/img/logos/cf-logo-black.svg" alt="Connect Financial">
+                    <a class="navbar-item" href="/">
+                        <img class="light-logo" src="../assets/img/logos/cf-logo-white.svg" alt="">
+                        <img class="dark-logo switcher-logo" src="../ssets/img/logos/cf-logo-black.svg" alt="">
                     </a>
 
                    
@@ -89,40 +89,79 @@
                     <!-- /Responsive toggle -->
                 </div>
 
+               
                 <!-- Navbar menu -->
                 <div id="nav-menu" class="navbar-menu">
                      <!-- Navbar item -->
-                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
-                            <a class="navbar-link poppins" href="#demos">
+                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile">
+                        <a class="navbar-link poppins product-span" href="#demos">
                                 Products
-                            </a>
-                            <div class="navbar-dropdown is-boxed is-medium">
+                        </a>
+                        <div class="navbar-dropdown is-boxed is-medium s-product-menu d-flex">
                                 <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="cards.html">
-                                    <!--<i class="fas fa-credit-card half-size"></i>-->
-                                    <span class="poppins">Cards</span>
-                                </a>
-                                <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="wallets.html">
-                                    <!--<i class="fas fa-wallet half-size"></i>-->
-                                    <span class="poppins">Wallets</span>
-                                </a>
-                                 <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="earn.html">
-                                    <!--<i class="fas fa-wallet half-size"></i>-->
-                                    <span class="poppins">Earn</span>
-                                </a>
-                                <!--Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="#">
-                                   <!--<i class="fas fa-exchange-alt half-size"></i>-->
-                                    <span class="poppins">Buy/Sell</span>
-                                </a>
-                                 <a class="navbar-item is-menu bottommargin-xsm" href="tokens.html">
-                                   <!--<i class="fas fa-coins"></i>-->
-                                    <span class="poppins">Tokens</span>
-                                </a>
-                            </div>
-                        </div>
+                               
+                            <div>
+                                <div class="d-flex" style="padding-right:10px;">
+                                    <div class="border-r-3px">
+                                        <h2 class="nav-h2">Spend & Crypto</h2>
+                                       <div class="d-flex"> 
+                                            <div class="d-flex ">
+                                                 <!-- Dropdown item -->
+                                                 <div class="p-0-15 p-0-25">
+                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="cards.html">
+                                                        <!--<i class="fas fa-info-circle half-size"></i>-->
+                                                        <span class="poppins ">Crypto Credit</span>
+                                                    </a>
+                                                    <p><a href="cards.html" style="color:#000;">Enjoy a visa credit card fueled by your crypto with interest rates as low as 7.9%.</a></p>
+                                                 </div>
+                                                <!-- Dropdown item -->
+                                                <div class="p-0-15 p-0-25">
+                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="earn.html">
+                                                        <!--<i class="fas fa-fingerprint half-size"></i>-->
+                                                        <span class="poppins ">Crypto Earn</span>
+                                                    </a>
+                                                    <p><a href="earn.html" style="color:#000;">Earn up to 12% with no account limits, no lock-up periods and no minimums.</a></p>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div>
+
+
+                                    <h2 class="nav-h3">Buy, Sell & Hold</h2>
+                                    <div class="d-flex" style="padding-left:13px;">
+                                        <!-- Dropdown item -->
+                                        <div class="p-0-15">
+                                            <a class="navbar-item poppins is-menu bottommargin-xsm" href="wallets.html">
+                                            <!--<i class="fas fa-credit-card half-size"></i>-->
+                                             <span class="poppins" align="left">Wallets</span>
+                                            </a>
+                                             <p><a href="wallets.html" style="color:#000;">Full control of your crypto and flat in and outs with multiple wallet options.</a></p>
+                                        </div>
+
+                                         <!-- Dropdown item -->
+                                        <div class="p-0-15">
+                                            <a class="navbar-item poppins is-menu bottommargin-xsm" href="tokens.html">
+                                            <!--<i class="fas fa-wallet half-size"></i>-->
+                                            <span class="poppins">Tokens</span>
+                                            </a>
+                                            <p><a href="tokens.html" style="color:#000;">Easily buy CFNI tokens. The more you stake the more credit and yield on crypto you receive.</a></p>
+                                        </div>
+                                        <!-- Dropdown item -->
+                                        <div class="p-0-15">
+                                            <a class="navbar-item poppins is-menu bottommargin-xsm" href="#">
+                                            <!--<i class="fas fa-exchange-alt half-size"></i>-->
+                                            <span class="poppins ">OTC Desk</span>
+                                            </a>
+                                            <p><a href="#" style="color:#000;">Leverage our experts to make large trades with trust, security, privacy, and confidence.</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                    </div>        
+                </div>
+             </div>
                         <!-- Mobile dropdown -->
                         <div class="mobile-drop is-hidden-desktop">
                             <div class="mobile-drop-trigger">
@@ -134,14 +173,14 @@
                                         <a href="cards.html">Cards</a>
                                     </li>
                                     <li>
-                                        <a href="wallets.html">Wallets</a>
-                                    </li>
-                                     <li>
                                         <a href="earn.html">Earn</a>
                                     </li>
                                     <li>
-                                        <a href="#">Buy/Sell</a>
+                                        <a href="wallets.html">Wallets</a>
                                     </li>
+                                    <li>
+                                        <a href="#">Buy/Sell</a>
+                                    </li> 
                                     <li>
                                         <a href="tokens.html">Tokens</a>
                                     </li>  
@@ -152,36 +191,69 @@
 
                          <!-- Navbar item -->
                           <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
-                            <a class="navbar-link poppins" href="#demos">
+                            
+                            <a class="navbar-link poppins product-span" href="#demos">
                                 Company
                             </a>
-                            <div class="navbar-dropdown is-boxed is-medium">
+                            
+                            <div class="navbar-dropdown is-boxed is-medium s-company-menu d-flex">
                                 <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="../company/about.html">
-                                    <!--<i class="fas fa-info-circle half-size"></i>-->
-                                    <span class="poppins">About</span>
+                               
+                                <div>
+                                <div class="d-flex">
+                                    <div class="border-r-3px">
+                                    <h2 class="nav-h2">Future of finance</h2>
+                                       <div class="d-flex"> 
+                                    <div class="d-flex ">
+                                        <div class="p-0-15">
+                                <a class="navbar-item poppins is-menu bottommargin-xsm" href="../company/about.html">
+                                    <!--<i class="fas fa-credit-card half-size"></i>-->
+                                    <span class="poppins ">About us</span>
+
+                                       
                                 </a>
-                                 <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="../media/index.html">
-                                    <!--<i class="fas fa-info-circle half-size"></i>-->
-                                    <span class="poppins">News & Media</span>
-                                </a>
+                                <p><a href="../company/about.html" style="color:#000;">Just like you, we believe in the future of finance. Founded by a team with decodes od experience...</a></p>
+                                        </div>
                                 <!-- Dropdown item -->
-                                <a class="navbar-item is-menu bottommargin-xsm" href="../company/security.html">
-                                    <!--<i class="fas fa-fingerprint half-size"></i>-->
+                                <div class="p-0-15">
+                                <a class="navbar-item poppins is-menu bottommargin-xsm" href="../company/security.html">
+                                    <!--<i class="fas fa-wallet half-size"></i>-->
                                     <span class="poppins">Security</span>
                                 </a>
+                                <p><a href="../company/security.html" style="color:#000;">Store in trust with our industry-leading security protocols, biometrics and advance authentication.</a></p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
 
+                            <div>
+                                    
+                                    <div class="d-grid topmargin-sm">
                                  <!-- Dropdown item -->
-                                <a class="navbar-item poppins is-menu bottommargin-xsm" href="https://support.connect.financial/" target="_blank">
-                                    <!--<i class="fas fa-fingerprint half-size"></i>-->
-                                    <span class="poppins">Support</span>
+                                 <div class="p-0 m-l-13">
+                                <a class="navbar-item poppins is-menu bottommargin-sm p-0" href="../media/index.html">
+                                    <!--<i class="fas fa-info-circle half-size"></i>-->
+                                    <span class="poppins get-c">News & Media</span>
                                 </a>
+                                </div>
                                 <!-- Dropdown item -->
-                               <a class="navbar-item is-menu bottommargin-xsm" href="../company/contact.html">
-                                   <!--<i class="fas fa-at half-size"></i>-->
-                                    <span class="poppins">Contact</span>
+                                <div class="p-0 m-l-13">
+                                <a class="navbar-item poppins is-menu bottommargin-sm p-0" href="https://support.connect.financial/en/">
+                                    <!--<i class="fas fa-fingerprint half-size"></i>-->
+                                    <span class="poppins get-c">Support</span>
                                 </a>
+                                </div>
+                                <div class="p-0 m-l-13">
+                                <a class="navbar-item poppins is-menu bottommargin-sm p-0" href="../company/contact.html">
+                                    <!--<i class="fas fa-fingerprint half-size"></i>-->
+                                    <span class="poppins get-c">Contact Us</span>
+                                </a>
+                                </div>
+                               </div>
+                           </div>
+                           </div>
+                            </div>
+                            
                             </div>
                         </div>
                         <!-- Mobile dropdown -->
@@ -194,14 +266,14 @@
                                     <li>
                                         <a href="../company/about.html">About</a>
                                     </li>
-                                    <li>
+                                     <li>
                                         <a href="../media/index.html">News & Media</a>
                                     </li>
                                     <li>
                                         <a href="../company/security.html">Security</a>
                                     </li>
-                                    <li>
-                                        <a href="https://support.connect.financial/" target="_blank">Support</a>
+                                     <li>
+                                        <a href="https://support.connect.financial/en/" target="_blank">Support</a>
                                     </li>
                                     <li>
                                         <a href="../company/contact.html">Contact</a>
@@ -216,18 +288,23 @@
                     <div class="navbar-end">
                         <!-- Signup button -->
                         <div class="navbar-item is-button topmargin-xxsm">
-                            <p><a href="https://client.connect.financial/" target="_blank" class="navbar-link button button-cta btn-align btn-outlined is-bold rounded">
+                            <p><a href="https://client.connect.financial/#/auth/login" target="_blank" class="hover navbar-link button button-cta btn-align btn-outlined is-bold rounded login">
                                 Login
                             </a></p>
 
-                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class="navbar-link button button-cta btn-align secondary-btn btn-solid is-bold rounded">
+                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class="navbar-link button button-cta btn-align secondary-btn btn-solid is-bold rounded signup">
                                 Sign Up
                             </a>
                         </div>
+
+
+                      
                     </div>
                 </div>
             </div>
         </nav>
+      
+
       
 
 
@@ -240,10 +317,10 @@
                 <div class="columns is-vcentered is-hero-caption" >
                     <div class="column is-5 ">
                         <h1 class="title is-1 is-light" data-animate="fadeInLeft" data-delay="200">
-                            <span class="gradient-text-otchue2">Buy, sell </span>and <span class="gradient-text-otchue2">exchange </span>with trust, confidence, and security.
+                            Make <span class="gradient-text-otchue2">large trades</span> with security, privacy, <span class="gradient-text-otchue2">trust and confidence. </span>
                         </h1>
                         <h2 class="subtitle is-5 is-light" data-animate="fadeInLeft" data-delay="400">
-                           Buying and selling crypto has never been easier. Fund your account with fiat from almost any bank account and then purchase your favourite coins at industry leading rates. When it comes time to sell, off-ramp crypto with a wide range of transfer options. 
+                           For institutions and high net-worth individuals making large trades, Connect Financial offers a bespoke OTC service leveraging its deep liquidity pools. Confidently manage buying and selling with Connect Financial.  
                         </h2>
                         <div class="field-wrap" style="margin-left:-10px;" data-animate="fadeInUp" data-delay="400">
                             <div class="field is-grouped">
@@ -273,7 +350,7 @@
         <div class="container">
 
             <!-- Feature -->
-            <div class="columns is-vcentered bottommargin-sm">
+            <div class="columns is-vcentered bottommargin-lg">
                 <div class="column is-6 has-text-centered">
                     <div class="masked-image">
                         <img class="main-image" src="../assets/img/OTC/otc-desk1.jpg" data-animate="fadeInLeft" data-delay="200" alt="OTC Desk">
@@ -283,13 +360,12 @@
 
                 <div class="column is-5">
                     <h2 class="title quick-feature is-smaller text-bold no-margin gradient-text-otchue1">
-                       Buy/Sell
+                        Secure and discreet.
                     </h2>
                     <div class="title-divider-orange2 topmargin-sm bottommargin-sm"></div>
-                     <span class="section-feature-description">When you become a Connect Financial member, you instantly become eligible for a buy/sell rate as low as 0.5%.
+                     <span class="section-feature-description">Accessing Connect Finanical’s deep liquidity pools allows you to execute trades off-exchange at unbeatable rates. 
                         <br><br>
-                    We give you a range of options to fund your wallet with cash from any eligible bank account. Transfer and withdraw fiat using SWIFT, SEPA, ACH, INTERAC or wire transfer.
-    
+                    Because security and privacy are built in at every layer of the Connect Financial ecosystem, you can trade with confidence, privacy and discretion. 
 
  
                         </span>
@@ -300,22 +376,38 @@
     </div>
 
 
+    <!-- Parallax Icon counter -->
+    <div class="section is-medium parallax is-cover is-relative" data-background="../assets/img/OTC/otc-parallax-bg.jpg" data-color="#011f18" data-color-opacity="0.6">
+        <div class="container topmargin-md">
+            <div class="section-title-wrapper">
+                <h2 class="title section-title has-text-centered light-text" data-animate="fadeInUp" data-delay="200" style="font-size: 55px;">
+                    <b>Personalized Service</b>
+                 </h2>
+          
+
+                    <p class="section-subtitle has-text-centered light-text" data-animate="fadeInUp" data-delay="600">Connect Financial is about more than just facilitating trades. We’re looking forward to creating a long term partnership with you through bespoke, customized service. 
+                    <br><br>
+                    We’re here to answer questions, keep you updated and help develop and execute your trading strategy. </p>
+                
+
+            </div>
+        </div>
+    </div>
+
 
      <div class="section" >
         <div class="container">
-             <div class="columns is-vcentered bottommargin-lg ">
+             <div class="columns is-vcentered topmargin-md ">
 
                 <div class="column is-5  ">
                     <h2 class="title quick-feature is-smaller text-bold no-margin gradient-text-otchue1">
-                      Exchange
+                      Trust through experience.
                        
                     </h2>
                     <div class="title-divider-orange2 topmargin-sm bottommargin-xxsm"></div>
-                        <span class="section-feature-description">Trade between a growing list of your favourite crypto pairs directly through the Connect Financial portal. 
-                    <br><br>
+                        <span class="section-feature-description">As an OTC client, you will receive the insights and expert opinions garnered from decades of experience in the financial industry. 
 
-                    Send, receive and transfer your crypto between wallets both within the Connect ecosystem and your favourite crypto wallets with confidence. 
-
+                            <br><br>Receive daily trade and market recaps, trade reporting and recommendations from your dedicated desk member. 
 
 
                         </span>
@@ -335,27 +427,6 @@
 
         </div>
     </div>
-
-      <!-- Parallax Icon counter -->
-    <div class="section is-medium parallax is-cover is-relative" data-background="../assets/img/OTC/otc-parallax-bg.jpg" data-color="#011f18" data-color-opacity="0.6">
-        <div class="container topmargin-md">
-            <div class="section-title-wrapper">
-                <h2 class="title section-title has-text-centered light-text" data-animate="fadeInUp" data-delay="200" style="font-size: 55px;">
-                    <b>Leverage our OTC desk</b>
-                 </h2>
-          
-
-                    <p class="section-subtitle has-text-centered light-text" data-animate="fadeInUp" data-delay="600">For institutions and high net-worth individuals making large trades, Connect Financial offers a bespoke OTC service leveraging its deep liquidity pools. Confidently manage buying and selling with Connect Financial.  
-                        <br><br>
-                    Receive daily trade and market recaps, trade reporting and recommendations from your dedicated desk member. 
-
-                    </p>
-                
-
-            </div>
-        </div>
-    </div>
-
 
 
 
@@ -452,7 +523,6 @@
                         <ul class="link-list">
                             <li><a href="cards.html">Crypto Cards</a></li>
                             <li><a href="wallets.html">Wallet</a></li>
-                            <li><a href="earn.html">Earn</a></li>
                             <li><a href="tokens.html">Tokens</a></li>
                             <li><a href="#">Buy / Sell</a></li>
                         </ul>
