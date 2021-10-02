@@ -59438,4 +59438,9 @@ figure.team-slanted:hover .member-position {
 		padding: 5px 20px;
 	}
 
+.s-product-menu{
+	width: 1110px !important;
+    left: -200px;
+    padding: 15px 15px 15px 0;
+}
 	}
