@@ -76,6 +76,7 @@ i {
     -moz-text-fill-color: transparent;
 }
 
+
 .gradient-text-dkblue-green {
     background-color: #f3ec78;
     background-image: linear-gradient(75deg, #10555A, #00A280);
@@ -311,6 +312,8 @@ i {
     font-size: 19px;
     color: black;
     font-weight: 400;
+	font-family: "poppins",sans-serif;
+	line-height: 2.2rem;
 }
 
 .nav-h3{
@@ -318,6 +321,8 @@ i {
     font-size: 19px;
     color: black;
     font-weight: 400;
+	font-family: "poppins",sans-serif;
+	line-height: 2.2rem;
 }
 
 .p-0{
@@ -924,6 +929,7 @@ a.box:active {
 	padding-top: calc(0.5em - 1px);
 	text-align: center;
 	white-space: nowrap;
+
 }
 
 
@@ -3586,12 +3592,17 @@ a.tag:hover {
 .title:not(.is-spaced)+.subtitle {
 	margin-top: -1.25rem;
 }
-
+.is-1 {
+	font-size: 3.3rem;
+	line-height: 4rem;
+	font-family: "Poppins",sans-serif;
+}
 .title.is-1 {
 	font-size: 3.3rem;
 	line-height: 4rem;
 	font-family: "Poppins",sans-serif;
 }
+
 
 .title.is-2 {
 	font-size: 2.5rem;
@@ -3620,6 +3631,12 @@ a.tag:hover {
 
 .title.is-7 {
 	font-size: .75rem;
+	font-family: "Poppins",sans-serif;
+}
+
+.title.is-1 span {
+	font-size: 3.3rem;
+	line-height: 4rem;
 	font-family: "Poppins",sans-serif;
 }
 
@@ -16429,11 +16446,11 @@ section:focus {
 }
 
 @font-face {
-	font-family: "Poppins",sans-serif;
+	font-family:"Nexa Light";src:url("../fonts/text/nexa/NexaLight.woff") format("woff"),url("../fonts/text/nexa/NexaLight.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Poppins",sans-serif;
+	font-family:"Nexa Bold";font-weight:bold;src:url("../fonts/text/nexa/NexaBold.woff") format("woff"),url("../fonts/text/nexa/NexaBold.ttf") format("truetype");
 }
 
 #backtotop {
@@ -17030,7 +17047,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar-wrapper .navbar-item.is-cart .shopping-cart .shopping-cart-header .header-title,.navbar-wrapper .navbar-item.is-cart .shopping-cart .wishlist-header .header-title,.navbar-wrapper .navbar-item.is-cart .shopping-wishlist .shopping-cart-header .header-title,.navbar-wrapper .navbar-item.is-cart .shopping-wishlist .wishlist-header .header-title,.navbar-wrapper .navbar-item.is-wishlist .shopping-cart .shopping-cart-header .header-title,.navbar-wrapper .navbar-item.is-wishlist .shopping-cart .wishlist-header .header-title,.navbar-wrapper .navbar-item.is-wishlist .shopping-wishlist .shopping-cart-header .header-title,.navbar-wrapper .navbar-item.is-wishlist .shopping-wishlist .wishlist-header .header-title {
 	display: inline;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 }
@@ -18451,6 +18468,7 @@ body::-webkit-scrollbar-thumb {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	
 }
 
 .content.content-flex.center-flex,.content-flex.center-flex {
@@ -18768,7 +18786,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero-body .is-subheader-caption .subtitle {
-	font-family: "Poppins",sans-serif;
+	font-family: "poppins",sans-serif;
 	font-size: 1.3rem;
 	color: #7f8ea4;
 }
@@ -18866,8 +18884,17 @@ body::-webkit-scrollbar-thumb {
 	font-size: 2rem;
 }
 
+.hero-body .subtitle{
+	font-size: 1.5rem;
+	font-family: "poppins",sans-serif;
+	line-height: 2.2rem;
+
+}
+
+
 .hero-body .subtitle.page-subtitle {
 	font-size: 1.8rem;
+	
 }
 
 .hero-body .clients-small {
@@ -19047,7 +19074,7 @@ footer.footer-dark .footer-column .footer-header {
 }
 
 footer.footer-dark .footer-column .footer-header h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 400;
 	font-size: 1.1rem;
 	text-transform: uppercase;
@@ -19118,7 +19145,7 @@ footer.footer-light .footer-column .footer-header {
 }
 
 footer.footer-light .footer-column .footer-header h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 400;
 	font-size: 1.1rem;
 	text-transform: uppercase;
@@ -19311,7 +19338,7 @@ footer.footer-dark-left .moto {
 }
 
 .footer-light-medium .footer-head .head-text h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	color: #444f60;
 }
@@ -19345,7 +19372,7 @@ footer.footer-dark-left .moto {
 }
 
 .footer-light-medium .footer-body .footer-column .column-header {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	text-transform: uppercase;
 	color: #444f60;
 	font-size: 1rem;
@@ -20872,7 +20899,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .title.is-styled {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -23426,11 +23453,11 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .card-text .text.text-container .text-header .text-subtitle {
 	color: #26A3C6;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .card-text .text.text-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.15em;
 	margin-bottom: .25em;
 	font-weight: bold;
@@ -23536,7 +23563,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .card.ressource-card .card-content .media-content a,.cart-summary .ressource-card.summary-card .card-content .media-content a {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 16px;
 	color: #444f60;
 }
@@ -23546,7 +23573,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .card.ressource-card .card-content .media-content p,.cart-summary .ressource-card.summary-card .card-content .media-content p {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light";
 	font-weight: 700;
 	color: #999;
 }
@@ -24216,7 +24243,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .simple-counter .counter-text {
 	text-transform: uppercase;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1rem;
 	font-weight: 900;
 	color: #26A3C6 !important;
@@ -24284,7 +24311,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .icon-counter .counter-number {
 	font-weight: bolder;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 3rem;
 	color: #444f60;
 }
@@ -24315,7 +24342,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .parallax-counter .counter-text {
 	color: #fff;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.1rem;
 	font-weight: 500;
 	padding: 0 10px;
@@ -24416,20 +24443,20 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .team-classic .member-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	text-transform: uppercase;
 	font-size: 1.3rem;
 }
 
 .team-classic .member-name .last-name {
 	font-weight: bolder;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .team-classic .member-name .position {
 	font-size: .9rem;
 	color: #26A3C6;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .team-classic.circled .social-links span:first-child a i:hover {
@@ -24563,7 +24590,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .modern-team .modern-team-item .member-info .member-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.2em;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -24571,13 +24598,13 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .modern-team .modern-team-item .member-info .member-name strong {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .modern-team .modern-team-item .member-info .member-position {
 	display: block;
 	margin: .5em 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: .8em;
 	text-transform: uppercase;
 	color: #26A3C6;
@@ -24717,7 +24744,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .card-team .card-team-item .member-id .name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	margin-top: 15px;
 	font-size: 1.4rem;
 	font-weight: 600;
@@ -24725,7 +24752,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .card-team .card-team-item .member-id .position {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	text-transform: uppercase;
 	margin-top: 5px;
 	font-size: .8rem;
@@ -24900,7 +24927,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .rounded-team-member h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.3rem;
 	color: #444f60;
 }
@@ -25626,7 +25653,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .testimonials .testimonial-item .testimonial-name h3,.demo .testimonial-item .testimonial-name h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 18px;
 	color: #26A3C6;
 	position: relative;
@@ -25634,7 +25661,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .testimonials .testimonial-item .testimonial-name span,.demo .testimonial-item .testimonial-name span {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 14px;
 	color: #a9abac;
 	position: relative;
@@ -25674,7 +25701,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 }
 
 .vertical-testimonials .vtestimonial-item .vt-content .vt-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	color: #26A3C6;
 	margin-bottom: 0 !important;
@@ -25738,13 +25765,13 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .flat-testimonials .flat-testimonial-item .testimonial-text .client-name {
 	margin-top: 20px;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 400;
 	font-size: 1.2rem;
 }
 
 .flat-testimonials .flat-testimonial-item .testimonial-text .client-position {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: .9rem;
 	color: #444f60;
 }
@@ -27938,7 +27965,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .table.device-table td.feature-name {
 	line-height: 1.9;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .table.device-table td i.im-icon-Yes {
@@ -27975,7 +28002,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .table.compare-table td.feature-name {
 	line-height: 1.9;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .table.compare-table td i.fa-check {
@@ -27990,7 +28017,7 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .table.compare-table th {
 	border-bottom: 1px solid #dbdbdb;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .responsive-table {
@@ -29083,7 +29110,7 @@ ul,ol {
 }.pricing-plan .plan-header {
 	text-transform: uppercase;
 	font-weight: 400 !important;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #999;
 	align-items: center;
 }
@@ -30756,7 +30783,7 @@ ul,ol {
 }
 
 .fancy-pricing .fancy-pricing-card.streched .plan-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	margin-bottom: 0;
 	margin-right: 25px;
 }
@@ -30816,7 +30843,7 @@ ul,ol {
 }
 
 .header-pricing.is-wavy .flex-card .plan-name,.header-pricing.is-wavy .network-grid .network-card .plan-name,.network-grid .header-pricing.is-wavy .network-card .plan-name,.header-pricing.is-wavy .project-card .plan-name,.header-pricing.is-wavy .profile-card .plan-name,.header-pricing.is-wavy .carousel-wrap .testimonials-solo-carousel .testimonial-item .plan-name,.carousel-wrap .testimonials-solo-carousel .header-pricing.is-wavy .testimonial-item .plan-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	text-transform: none;
 	font-size: 1.4rem;
 }
@@ -31143,7 +31170,7 @@ ul,ol {
 
 .pricing-wrap .pricing-card .pricing-head .price {
 	font-size: 3.6rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: bolder;
 	color: #444f60;
 	-webkit-transition: color .3s;
@@ -31164,7 +31191,7 @@ ul,ol {
 }
 
 .pricing-wrap .pricing-card .pricing-head .meta span:first-child {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 }
 
@@ -31218,7 +31245,7 @@ ul,ol {
 
 .pricing-card .pricing-title {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2rem;
 	margin-bottom: 20px;
 }
@@ -31254,13 +31281,13 @@ ul,ol {
 
 .pricing-card .features .feature span:first-child {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 }
 
 .pricing-card .features .feature span:nth-child(2) {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 }
 
@@ -31537,7 +31564,7 @@ ul,ol {
 }
 
 .is-pricing-card .plan-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	padding: 20px 0;
 	border-bottom: 1px solid #ededed;
@@ -31763,7 +31790,7 @@ ul,ol {
 .pricing-wrapper .pricing-container .container-inner .solo-plans .solo-plan .header span {
 	display: block;
 	font-size: 1.4rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	-webkit-transition: color .3s;
 	transition: color .3s;
@@ -31873,7 +31900,7 @@ ul,ol {
 .pricing-wrapper .pricing-container .container-inner .plan-focus .left-side .header span {
 	display: block;
 	font-size: 1.4rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	-webkit-transition: color .3s;
 	transition: color .3s;
@@ -35944,7 +35971,7 @@ input[type=range].slider.is-danger::-ms-track {
 }
 
 .timeline .timeline-item .timeline-content .content-body .timeline-text div:first-child {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	color: #444f60;
 }
@@ -36765,7 +36792,7 @@ input[type=range].slider.is-danger::-ms-track {
 }
 
 .Wallop--v1 .Wallop-caption {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .Wallop--v1 .Wallop-caption.is-centered {
@@ -36944,7 +36971,7 @@ input[type=range].slider.is-danger::-ms-track {
 }
 
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner h1 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 700;
 	font-size: 3.8rem;
 	line-height: 4.2rem;
@@ -37110,7 +37137,7 @@ input[type=range].slider.is-danger::-ms-track {
 }
 
 .hero.is-slant .hero-body .clean-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 700;
 	font-size: 3.4rem;
 	color: #444f60;
@@ -38021,7 +38048,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .jobs-hero .hero-body .is-hero-caption .title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	margin-bottom: 6px !important;
 }
 
@@ -38176,11 +38203,11 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .main-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .subpage-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600 !important;
 }
 
@@ -38193,14 +38220,14 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .centered-title h2 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.4rem;
 	font-weight: 600;
 	color: #444f60;
 }
 
 .centered-title .subheading {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 600;
 	max-width: 70vh;
 	margin: 0 auto;
@@ -38214,7 +38241,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .big-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	margin-bottom: 0 !important;
 	padding: 10px 0;
 }
@@ -38293,7 +38320,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .section-title .title-alt {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 2.2rem;
 }
 
@@ -38355,12 +38382,12 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .section-title-wrapper .section-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	margin-bottom: 1.5rem;
 }
 
 .section-title-wrapper .section-subtitle {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.5rem;
 	line-height: 30px;
 	font-weight: 600;
@@ -38383,7 +38410,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .section-title-wrapper .section-title-landing {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.7rem;
 	color: #444f60;
 }
@@ -38391,7 +38418,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 .section-title-wrapper .top-subtitle {
 	text-transform: uppercase;
 	color: #26A3C6;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 700;
 	font-size: 1.05rem;
 }
@@ -38423,7 +38450,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .section-title-wrapper h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 300;
 	font-size: 1.2rem;
 	color: #999;
@@ -38466,7 +38493,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .parallax-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600 !important;
 	font-size: 2.4rem !important;
 	margin-bottom: 0 !important;
@@ -38474,7 +38501,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .clean-section-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.6rem;
 	color: #444f60;
 }
@@ -38508,7 +38535,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 .title-wrapper .top-subtitle {
 	text-transform: uppercase;
 	color: #999;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 700;
 	font-size: 1.05rem;
 }
@@ -38541,7 +38568,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 	max-width: 480px;
 	font-size: 1.3rem;
 	line-height: 1;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	color: #8e9baf;
 }
 
@@ -38554,7 +38581,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 	max-width: 90px;
 	margin: 0 auto;
 }.cta-text {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -38590,7 +38617,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .cta-block .head-text h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	color: #444f60;
 }
@@ -38647,7 +38674,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .body-subtitle {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	color: #444f60;
 	font-size: 1.8rem;
@@ -38669,7 +38696,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .detailed-feature-subtitle {
 	text-transform: uppercase;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: .9rem;
 	letter-spacing: 3px;
 	color: #a9abac;
@@ -38682,7 +38709,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .quick-feature.has-numbers {
 	font-size: 2.1rem !important;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 400 !important;
 	margin-bottom: .8rem !important;
 }
@@ -38694,12 +38721,12 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .quick-feature>span {
 	font-size: 2rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .small-feature {
 	padding: 5px 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.3rem;
 }
 
@@ -38727,7 +38754,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .minimal-feature .minimal-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2rem;
 	font-weight: 500;
 	color: #444f60;
@@ -38848,7 +38875,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .service-box .service-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.4rem;
 	font-weight: 600;
 	color: #444f60;
@@ -38916,7 +38943,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .featured-job-box h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -39016,7 +39043,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .job-categories .job-categories-inner .job-category .job-category-heading h2 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.4rem;
 	font-weight: 700;
 	margin: 0;
@@ -39091,7 +39118,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .job-topic .meta h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -39140,7 +39167,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .job-user h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.3rem;
 	color: #444f60;
 }
@@ -39261,13 +39288,13 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .event-card.is-wavy .text-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	text-transform: none;
 	font-size: 1.35em;
 }
 
 .event-card.is-wavy .text-subtitle {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: .9rem;
 }
 
@@ -39397,7 +39424,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 	padding: 10px 0;
 	font-size: 16px;
 	line-height: 22px;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 600;
 	color: #444f60;
 }
@@ -39433,7 +39460,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .startup-icon-box .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 700;
@@ -39452,7 +39479,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .wavy-icon-box .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	padding: 5px 0;
 	font-size: 14px;
 	line-height: 20px;
@@ -39465,7 +39492,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .square-icon-box.is-landing .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.2rem;
 	font-weight: 700;
 	color: #444f60;
@@ -39519,7 +39546,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .chat-icon-box .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	padding: 5px 0;
 	font-size: 16px;
 	line-height: 20px;
@@ -39656,13 +39683,13 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .is-feature3 .content-container h4 {
 	padding: 10px 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 20px;
 }
 
 .is-feature3 .content-container h3 {
 	padding: 10px 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 
@@ -39750,7 +39777,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 
 .icon-feature .feature-text h3 {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	font-size: 1.2rem;
 	margin-bottom: 6px;
@@ -39829,7 +39856,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .box-wrap.is-one-page .icon-box .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	padding: 10px 0;
 }
@@ -39865,7 +39892,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 }
 
 .box-wrap.is-one-page-2 .icon-box .box-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	padding: 6px 0;
 }
@@ -39890,7 +39917,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 	top: -70px;
 	left: 0;
 	font-size: 7rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 700;
 	color: #444f60;
 	opacity: .1;
@@ -40435,7 +40462,7 @@ body.is-theme-red .hero.is-wavy-bg:before {
 	}
 }.pricing-picker span {
 	color: #fff;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	margin: 0 5px 0 5px;
 	padding: 10px 20px 13px 20px;
 	border: 1px solid transparent;
@@ -45475,7 +45502,7 @@ a:not(.button).is-link {
 .people-carousel .testimonial-title {
 	font-size: 1.7rem;
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	position: relative;
 }
@@ -45516,7 +45543,7 @@ a:not(.button).is-link {
 }
 
 .people-carousel .customer-info .customer-block .name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-weight: 600;
 	color: #444f60;
 }
@@ -45557,7 +45584,7 @@ a:not(.button).is-link {
 }
 
 .testimonials.is-wavy .testimonial-name h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 @media(max-width: 768px) {
@@ -45650,7 +45677,7 @@ a:not(.button).is-link {
 }
 
 .testimonials-wrapper .testimonial .testimonial-author {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-style: normal;
 	font-size: 22px;
 	line-height: 1.1;
@@ -46320,7 +46347,7 @@ a:not(.button).is-link {
 	display: block;
 	font-size: 1.1rem;
 	font-weight: 600;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	margin-left: 10px;
 }
@@ -46523,7 +46550,7 @@ a:not(.button).is-link {
 .carousel-wrapper .carousel .carousel-item .item-footer .meta span:first-child {
 	font-size: 1.1rem;
 	font-weight: 600;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -46631,7 +46658,7 @@ a:not(.button).is-link {
 }
 
 .flex-table .flex-table-header span {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: .7rem;
 	font-weight: 600;
 	color: #999;
@@ -46967,7 +46994,7 @@ a:not(.button).is-link {
 	display: block;
 	margin-left: 12px;
 	max-width: 360px;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	font-size: .8rem;
 	color: #444f60;
@@ -46975,7 +47002,7 @@ a:not(.button).is-link {
 
 .flex-table .flex-table-item .quantity span,.flex-table .flex-table-item .price span {
 	display: block;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	font-size: .9rem;
 	color: #999;
@@ -46983,7 +47010,7 @@ a:not(.button).is-link {
 
 .flex-table .flex-table-item .discount span,.flex-table .flex-table-item .total span {
 	display: block;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	font-size: .9rem;
 	color: #444f60;
@@ -47486,7 +47513,7 @@ a:not(.button).is-link {
 }
 
 .title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -47647,7 +47674,7 @@ a:not(.button).is-link {
 }
 
 .demo-section .demo-section-title .title-meta h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	font-size: 1.3rem;
 	color: #444f60;
@@ -47744,7 +47771,7 @@ a:not(.button).is-link {
 
 .demo-wrapper .demo-title {
 	color: #fff;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
 	padding-bottom: 0;
@@ -47819,7 +47846,7 @@ a:not(.button).is-link {
 }
 
 .cta-block .head-text h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	color: #444f60;
 }
@@ -47922,7 +47949,7 @@ a:not(.button).is-link {
 }
 
 .footer-light-medium-demo .footer-head .head-text h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	color: #444f60;
 }
@@ -47956,7 +47983,7 @@ a:not(.button).is-link {
 }
 
 .footer-light-medium-demo .footer-body .footer-column .column-header {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	text-transform: uppercase;
 	color: #444f60;
 	font-size: 1rem;
@@ -48293,7 +48320,7 @@ a:not(.button).is-link {
 .components-subtitle {
 	margin-bottom: 0 !important;
 	padding: 20px 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .info-block {
@@ -48328,7 +48355,7 @@ a:not(.button).is-link {
 .info-block h4 {
 	font-size: 1.4rem;
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .info-block p {
@@ -48402,7 +48429,7 @@ a:not(.button).is-link {
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: #00AEEA;
-	font-family: "Poppins",sans-serif;
+	font-family: "poppins",sans-serif;
 }
 
 .highlight {
@@ -48469,11 +48496,11 @@ code.hljs span {
 }
 
 .flex-card .title-bold,.network-grid .network-card .title-bold,.project-card .title-bold,.profile-card .title-bold,.carousel-wrap .testimonials-solo-carousel .testimonial-item .title-bold {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .flex-card .title-light,.network-grid .network-card .title-light,.project-card .title-light,.profile-card .title-light,.carousel-wrap .testimonials-solo-carousel .testimonial-item .title-light {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .feature-card {
@@ -49191,7 +49218,7 @@ pre {
 
 .hero-body .auth-content h2 {
 	font-size: 2rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	line-height: 1;
 }
 
@@ -49452,7 +49479,7 @@ pre {
 	font-size: 22px;
 	margin-bottom: 40px;
 	font-weight: 700 !important;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .quick-signup.is-landing {
@@ -49702,12 +49729,12 @@ pre {
 
 .login-register-wrapper .left .content h2 {
 	color: #fcfcfc;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .login-register-wrapper .right .content h2 {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .login-register-wrapper .form-element {
@@ -50649,7 +50676,7 @@ pre {
 }
 
 .profile-card .profile-card-head h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	color: #444f60;
 }
@@ -50665,7 +50692,7 @@ pre {
 }
 
 .profile-card .profile-card-body .projects .project h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	color: #444f60;
 }
@@ -50702,7 +50729,7 @@ pre {
 }
 
 .profile-card .profile-card-body .skills .skill-box h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 	margin-bottom: .75rem;
@@ -50757,7 +50784,7 @@ pre {
 }
 
 .profile-card .profile-card-body .experiences .experience .meta h3,.profile-card .profile-card-body .experiences .education .meta h3,.profile-card .profile-card-body .educations .experience .meta h3,.profile-card .profile-card-body .educations .education .meta h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 }
@@ -50789,7 +50816,7 @@ pre {
 }
 
 .project-card .project-card-content h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 	margin-bottom: .25rem;
@@ -50844,7 +50871,7 @@ pre {
 }
 
 .network-stats .network-stat span:first-child {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	color: #444f60;
 }
@@ -50870,7 +50897,7 @@ pre {
 }
 
 .network-toolbar h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	color: #444f60;
 }
@@ -52007,7 +52034,7 @@ pre {
 }
 
 .portfolio .portfolio-item .project-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.6rem;
 	font-weight: 600;
 	padding-bottom: 0;
@@ -52032,7 +52059,7 @@ pre {
 
 .portfolio .portfolio-item .project-link a {
 	color: #fff;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.2rem;
 }
 
@@ -52053,7 +52080,7 @@ pre {
 }
 
 .portfolio-item .item-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.3rem;
 }
 
@@ -52062,7 +52089,7 @@ pre {
 }
 
 .portfolio-item .made-for {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -52079,7 +52106,7 @@ pre {
 }
 
 .portfolio-item label {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	text-transform: uppercase;
 	font-weight: 200;
 	font-size: 90%;
@@ -52099,7 +52126,7 @@ pre {
 }
 
 .portfolio-item .project-category span {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .portfolio-item .project-category i {
@@ -52113,7 +52140,7 @@ pre {
 
 .portfolio-item .project-date {
 	padding: 10px 0;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .portfolio-item .fa-social {
@@ -52187,7 +52214,7 @@ pre {
 }
 
 .latest-posts .card .title,.latest-posts .cart-summary .summary-card .title,.cart-summary .latest-posts .summary-card .title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 }
 
@@ -52315,7 +52342,7 @@ pre {
 }
 
 .is-post .featured-post-body .featured-post-title .title-meta .post-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.4rem;
 	line-height: 1;
@@ -52361,7 +52388,7 @@ pre {
 }
 
 .load-more .button {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 }
 
@@ -52487,7 +52514,7 @@ pre {
 }
 
 .blog-grid-item .card-content .featured-post-title .title-meta .post-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.1rem;
 	line-height: 1.2;
@@ -52549,7 +52576,7 @@ pre {
 }
 
 .blog-sidebar .blog-sidebar-posts h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.5rem;
 	margin-bottom: 20px;
@@ -52632,7 +52659,7 @@ pre {
 }
 
 .blog-sidebar .blog-sidebar-categories h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.5rem;
 	margin-bottom: 20px;
@@ -52709,7 +52736,7 @@ pre {
 }
 
 .blog-sidebar .blog-sidebar-tags h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.5rem;
 	margin-bottom: 20px;
@@ -52817,7 +52844,7 @@ pre {
 }
 
 .is-single-post .featured-post-body .featured-post-title .title-meta .post-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.8rem;
 	line-height: 1;
@@ -52993,7 +53020,7 @@ pre {
 }
 
 .is-single-post .post-author .post-author-meta .post-author-title a {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.4rem;
 	line-height: 1.2;
@@ -53006,7 +53033,7 @@ pre {
 }
 
 .is-single-post .post-author .post-author-meta h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	color: #8e9baf;
 	font-size: 1.1rem;
 	margin-bottom: .5rem;
@@ -53037,14 +53064,14 @@ pre {
 }
 
 .related-posts .related-posts-head {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.6rem;
 	margin: 20px 0;
 }
 
 .single-comments .single-comments-head {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.6rem;
 	margin: 20px 0;
@@ -53102,7 +53129,7 @@ pre {
 }
 
 .single-comments .publish-comment .publish-comment-head {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	font-size: 1.6rem;
 	margin: 20px 0;
@@ -53219,7 +53246,7 @@ pre {
 }
 
 .main-post .post-content h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: #26A3C6;
@@ -53300,7 +53327,7 @@ pre {
 }
 
 .side-post .post-content h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	font-weight: 500;
 	color: #26A3C6;
@@ -53386,14 +53413,14 @@ pre {
 }
 
 .contact-form-wrapper .form-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.8rem;
 	font-weight: 700;
 	color: #444f60;
 }
 
 .shadow-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 1.3rem;
 	padding-top: 10px;
 }
@@ -53432,7 +53459,7 @@ pre {
 	margin-top: 50px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .contact-form.is-bigger .button-wrap .button {
@@ -53566,7 +53593,7 @@ pre {
 	margin-top: 50px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .contact-form-2 .button-wrap .button {
@@ -53617,7 +53644,7 @@ pre {
 }
 
 .contact-page-form>h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.4rem;
 	color: #444f60;
 }
@@ -53673,7 +53700,7 @@ pre {
 }
 
 .map-block .map-block-inner .card .card-content h4,.map-block .map-block-inner .cart-summary .summary-card .card-content h4,.cart-summary .map-block .map-block-inner .summary-card .card-content h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	color: #444f60;
 }
@@ -53882,7 +53909,7 @@ pre {
 }
 
 .case-study-tools .case-study-tools-card h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.3rem;
 	color: #444f60;
 }
@@ -54332,7 +54359,7 @@ pre {
 }
 
 .vertical-process .vertical-block .vertical-text h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.2rem;
 	font-weight: 500;
 	margin-bottom: 6px;
@@ -55418,7 +55445,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .conference-event-card .card-container .text h1 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2.5em;
 	line-height: 1;
 	color: #444f60;
@@ -55512,7 +55539,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .conference-schedule .schedule-box h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.25rem;
 	color: #444f60;
 	margin-bottom: .5rem;
@@ -55592,7 +55619,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .error-wrap.error-centered .error-caption h2 {
 	color: #444f60;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2rem;
 	max-width: 560px;
 	margin: 0 auto;
@@ -55752,7 +55779,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .shop-hero .shop-hero-box .overlay-layer .overlay-content .inner-content .episode-title {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 3.5rem;
 	font-weight: bolder;
 	line-height: 43px;
@@ -55825,7 +55852,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .shop-toolbar h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	font-size: 2rem;
 	color: #444f60;
@@ -55912,7 +55939,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .popular-categories .box.is-category .left h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.25rem;
 	color: #444f60;
 }
@@ -55985,7 +56012,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 	position: absolute;
 	top: 1rem;
 	left: 1.5rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 }
@@ -55998,7 +56025,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 	position: absolute;
 	top: .8rem;
 	right: 1.5rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	opacity: 0;
 	-webkit-transition: opacity .3s;
@@ -56051,7 +56078,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .grid-products .grid-products-inner .grid-product .grid-product-info h3 {
 	font-size: 1.1rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	color: #444f60;
 	margin-bottom: .5rem;
 }
@@ -56089,7 +56116,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .brands .brand h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	font-size: .95rem;
 	color: #444f60;
@@ -56113,7 +56140,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .supported-providers h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	color: #444f60;
 }
@@ -56434,14 +56461,14 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .product-page-v1 .product-head .right .product-description h1 .product-name {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 	font-size: 2.75rem;
 	color: #444f60;
 	letter-spacing: -2px;
 }
 
 .product-page-v1 .product-head .right .product-description h1 .product-price {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 2rem;
 	color: #444f60;
 }
@@ -56736,7 +56763,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .product-page-v1 .product-body .product-info .content h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	color: #444f60;
 }
@@ -56796,7 +56823,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .product-page-v1 .product-body .product-meta .flex-card h4,.product-page-v1 .product-body .product-meta .carousel-wrap .testimonials-solo-carousel .testimonial-item h4,.carousel-wrap .testimonials-solo-carousel .product-page-v1 .product-body .product-meta .testimonial-item h4,.product-page-v1 .product-body .product-meta .profile-card h4,.product-page-v1 .product-body .product-meta .project-card h4,.product-page-v1 .product-body .product-meta .network-grid .network-card h4,.network-grid .product-page-v1 .product-body .product-meta .network-card h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 500;
 	color: #444f60;
 }
@@ -56838,7 +56865,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .product-page-v1 .product-footer .footer-title h2 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.5rem;
 	color: #444f60;
 }
@@ -56877,7 +56904,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 	position: absolute;
 	top: 1rem;
 	left: 1.5rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	color: #444f60;
 }
@@ -56890,7 +56917,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 	position: absolute;
 	top: .8rem;
 	right: 1.5rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.1rem;
 	opacity: 0;
 	-webkit-transition: opacity .3s;
@@ -56942,7 +56969,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .product-page-v1 .product-footer .related-products .related-products-inner .related-product .related-product-info h3 {
 	font-size: 1.1rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 }
 
 .product-page-v1 .product-footer .related-products .related-products-inner .related-product .buttons .button {
@@ -57061,7 +57088,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .coupon-area h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: .9rem;
 	font-weight: 600;
 	color: #444f60;
@@ -57144,7 +57171,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .cart-summary .summary-header h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: .7rem;
 	font-weight: 600;
 	color: #999;
@@ -57167,7 +57194,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .cart-summary .summary-card>h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1rem;
 	font-weight: 500;
 	color: #999;
@@ -57259,7 +57286,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .cart-summary .summary-card h4 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	color: #444f60;
 	font-size: 1.1rem;
@@ -57327,7 +57354,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .payment-process .intructions-block h2 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.75rem;
 	color: #444f60;
 }
@@ -57351,7 +57378,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 
 .payment-process .shipping-methods-grid .summary-label,.payment-process .payment-methods-grid .summary-label,.payment-process .order-summary-grid .summary-label {
 	display: block;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: .7rem;
 	font-weight: 600;
 	color: #999;
@@ -57378,7 +57405,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 	right: 14px;
 	font-size: .65rem;
 	color: #cecece;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	-webkit-transition: color .3s;
@@ -57558,7 +57585,7 @@ body.is-theme-red .hover-cards .icon-card-hover.fourth-card:hover {
 }
 
 .payment-process .checkout-success .success-card .success-content h3 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 1.5rem;
 	color: #444f60;
 	font-weight: 600;
@@ -58410,7 +58437,7 @@ figure.team-slanted:hover .member-position {
 }
 
 .covervid-wrapper .video-caption h1 {
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Bold",sans-serif;
 	font-size: 3.5rem;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -58418,7 +58445,7 @@ figure.team-slanted:hover .member-position {
 
 .covervid-wrapper .video-caption p {
 	font-size: 1.5rem;
-	font-family: "Poppins",sans-serif;
+	font-family: "Nexa Light",sans-serif;
 }
 
 .covervid-wrapper video {
