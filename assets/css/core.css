@@ -21,6 +21,61 @@ i {
 }
 
 
+.gradient-text-blue-green-banner {
+	display: block;
+	width: max-content;
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #26A3C6, #50C95B);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-text-orange-banner {
+	display: block;
+	width: max-content;
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #fbc340, #f15a02);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.gradient-text-otchue2-banner {
+	display: block;
+	width: max-content;
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #e05029, #fbb040);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+
+
+.gradient-text-tokenshue3-banner {
+	display: block;
+	width: max-content;
+    background-color: #f3ec78;
+    background-image: linear-gradient(75deg, #4cc2e3, #25f8f9);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
 .gradient-text-teals2 {
     background-color: #f3ec78;
     background-image: linear-gradient(75deg, #1eb8bc, #20ba96);
@@ -18360,7 +18415,11 @@ body::-webkit-scrollbar-thumb {
 
 .section .section-feature-description {
 	color: #000000;
+	font-family: "poppins",sans-serif;
+	font-size: 16px;
 }
+
+
 
 .section .media.icon-box {
 	border-top: none !important;
@@ -18419,6 +18478,7 @@ body::-webkit-scrollbar-thumb {
 .section .section-title.is-demo,.section .section-feature-description {
 	max-width: 460px !important;
 	margin: 0 auto !important;
+	font-family: "poppins",sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -18441,6 +18501,7 @@ body::-webkit-scrollbar-thumb {
 	.section .section-title.is-demo,.section .section-feature-description {
 		max-width: 460px !important;
 		margin: 0 auto !important;
+		font-family: "poppins",sans-serif;
 	}
 
 	.columns.is-flex-tablet-portrait {
@@ -21408,6 +21469,47 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 	margin-top: 120px;
 }
 
+
+.mt-5-decrease {
+	margin-top: -5px;
+}
+
+.mt-10-decrease {
+	margin-top: -10px;
+}
+
+.mt-20-decrease {
+	margin-top: -20px;
+}
+
+.mt-30-decrease {
+	margin-top: -30px;
+}
+
+.mt-40-decrease {
+	margin-top: -40px;
+}
+
+.mt-50-decrease {
+	margin-top: -50px;
+}
+
+.mt-60-decrease {
+	margin-top: -60px;
+}
+
+.mt-70-decrease {
+	margin-top: -70px;
+}
+
+.mt-80-decrease {
+	margin-top: -80px;
+}
+
+.mt-120-decrease {
+	margin-top: -120px;
+}
+
 .mb-5 {
 	margin-bottom: 5px;
 }
@@ -21480,6 +21582,43 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 	margin-left: 80px;
 }
 
+.ml-5-decrease {
+	margin-left: -5px;
+}
+
+.ml-10-decrease {
+	margin-left: -10px;
+}
+
+.ml-20-decrease {
+	margin-left: -20px;
+}
+
+.ml-30-decrease {
+	margin-left: -30px;
+}
+
+.ml-40-decrease {
+	margin-left: -40px;
+}
+
+.ml-50-decrease {
+	margin-left: -50px;
+}
+
+.ml-60-decrease {
+	margin-left: -60px;
+}
+
+.ml-70-decrease {
+	margin-left: -70px;
+}
+
+.ml-80-decrease {
+	margin-left: -80px;
+}
+
+
 .mr-5 {
 	margin-right: 5px;
 }
@@ -21516,6 +21655,8 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 	margin-right: 80px;
 }
 
+
+
 .width-40 {
 	width: 40px !important;
 }
@@ -21551,6 +21692,12 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .height-90 {
 	height: 60px !important;
 }
+
+.height970{
+	height: 970px !important;
+}
+
+
 
 .max-w-center {
 	width: 100%;
@@ -36927,7 +37074,7 @@ input[type=range].slider.is-danger::-ms-track {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	bottom: 40px;
+	bottom: 5px;
 	z-index: 100;
 }
 
@@ -36971,10 +37118,18 @@ input[type=range].slider.is-danger::-ms-track {
 }
 
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner h1 {
-	font-family: "Nexa Bold",sans-serif;
+	font-family: "Poppins",sans-serif;
 	font-weight: 700;
 	font-size: 3.8rem;
 	line-height: 4.2rem;
+	color: #fff;
+}
+
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner h2 {
+	font-family: "Poppins",sans-serif;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.0rem;
 	color: #fff;
 }
 
@@ -36996,6 +37151,25 @@ input[type=range].slider.is-danger::-ms-track {
 	margin: 30px 30px 30px 0px;
 }
 
+
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-divider-brightblue {
+	width: 30%;
+	height: 3px;
+	background: #00aee6;
+	padding: 3px 3px 3px 3px;
+	border-radius: 3px;
+	margin: 30px 30px 30px 0px;
+}
+
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-divider-orange {
+	width: 30%;
+	height: 3px;
+	background: #f15a29;
+	padding: 3px 3px 3px 3px;
+	border-radius: 3px;
+	margin: 30px 30px 30px 0px;
+}
+
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-divider-purple {
 	width: 30%;
 	height: 3px;
@@ -37005,11 +37179,15 @@ input[type=range].slider.is-danger::-ms-track {
 	margin: 30px 30px 30px 0px;
 }
 
-.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-text {
-	color: #fff;
-	font-size: 1.25rem;
+.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-text p {
+	font-family: "Poppins",sans-serif;
 	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 1.9rem;
+	color: #fff;
 }
+
+
 
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-text .action {
 	padding: 20px 0;
@@ -37037,10 +37215,12 @@ input[type=range].slider.is-danger::-ms-track {
 	}
 
 	.Wallop--v2 .caption-inner .caption-text span {
+		font-family: "Poppins",sans-serif;
 		margin: 0 20px;
 		display: block;
 	}
 }
+
 
 @media only screen and (min-width: 768px)and (max-width: 1024px)and (orientation: portrait) {
 	.Wallop--v2 .caption-inner {
@@ -47548,6 +47728,12 @@ a:not(.button).is-link {
 
 .section .section-feature-description {
 	font-size: 1.2rem;
+	font-family: "poppins",sans-serif;
+}
+
+.section .section-feature-description ul, li{
+	font-size: 1.2rem;
+	font-family: "poppins",sans-serif;
 }
 
 .has-background-image {
@@ -59516,3 +59702,42 @@ figure.team-slanted:hover .member-position {
 #nav-menu > div.navbar-end > div > p > a , #nav-menu > div.navbar-end > div > a{
 	height: 35px;
 }
+/*.cewtoa-h1{
+	font-weight: 500 !important;
+}
+.cewtoa-h2{
+	font-size: 1.10rem !important;
+    font-weight: 400 !important;
+    line-height: 1.60 !important;
+}*/
+
+
+
+@media(max-width: 400px) {
+	.Wallop--v2 .caption-inner{
+		top: 20% !important;
+
+	}
+	.Wallop--v2 .Wallop-caption-wrapper .container .caption-inner h1{
+		line-height: 3.2rem;
+	}
+	.Wallop--v2 .caption-inner h1 {
+    	font-size: 2.2rem !important;
+	}
+}
+
+
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    .gradient-text-blue-green{
+    	background-image: linear-gradient(75deg, #26A3C6, #50C95B);
+    }
+    .gradient-text-teals2{
+    	background-image: linear-gradient(75deg, #1eb8bc, #20ba96);
+    }
+    .gradient-text-gold-red{
+    	background-image: linear-gradient(75deg, #ED9B24, #D33D35);
+    }
+
+}}
