@@ -3743,6 +3743,7 @@ a.tag:hover {
 .title.is-5 {
 	font-size: 1.25rem;
 	font-family: "Poppins",sans-serif;
+	line-height: 1.85rem;
 }
 
 .title.is-6 {
@@ -37445,7 +37446,6 @@ input[type=range].slider.is-danger::-ms-track {
 	line-height: 1.9rem;
 	color: #fff;
 }
-
 
 
 .Wallop--v2 .Wallop-caption-wrapper .container .caption-inner .caption-text .action {
