@@ -22383,6 +22383,12 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 	font-weight: 600;
 }
 
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 .single-toggle-wrapper .toggle-wrap .trigger.active .im-icon-Add {
 	margin-top: 2px;
 	-webkit-transform: translate3d(0, -50%, 0) rotate(45deg);
@@ -22405,6 +22411,9 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 .button.button-signup.btn-outlined.is-bold {
 	border-width: 2px;
 	font-weight: 600;
+}
+.fix-hight{
+	height: 430px;
 }
 
 .button.button-cta {

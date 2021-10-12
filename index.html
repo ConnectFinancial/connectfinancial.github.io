@@ -350,12 +350,14 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-5">
                                     <div class="caption-inner" >
-                                        <h1>CONNECT <Br><span class="gradient-text-teals2">Your Crypto.</span> Your World. Your Life.</h1>
-                                        <div class="caption-divider-green"></div>
-                                        <div class="caption-text bottommargin-sm ">
-                                            <p>Enjoy complete flexibility with a Visa credit card powered by your crypto holdings with zero-touch on your coin value. It's time to do more with your crypto and leverage its investment by getting the credit you want without credit checks or lengthy approvals processes.</p>
+                                        <div class="fix-hight">
+                                            <h1>CONNECT <Br><span class="gradient-text-teals2">Your Crypto.</span> Your World. Your Life.</h1>
+                                            <div class="caption-divider-green"></div>
+                                            <div class="caption-text ">
+                                                <p>Enjoy complete flexibility with a Visa credit card powered by your crypto holdings with zero-touch on your coin value. It's time to do more with your crypto and leverage its investment by getting the credit you want without credit checks or lengthy approvals processes.</p>
+                                            </div>
                                         </div>
-                                            <div class="action col-first ml-10-decrease">
+                                            <div class="action col-first ml-10-decrease mt-40-decrease">
                                                 <a href="products/cards.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm ">Learn More</a>
                                             </div>
 
@@ -375,12 +377,14 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-5">
                                     <div class="caption-inner">
+                                    <div class="fix-hight">
                                         <h1><span class="gradient-text-gold-red">Multiple Wallets.</span><br> Hundreds of coins with full flexibility. </h1>
                                        <div class="caption-divider-purple"></div>
-                                        <div class="caption-text bottommargin-sm">
+                                        <div class="caption-text">
                                             <p>From basic wallet through to interest-earning vault wallets, easily manage all of your assets including cash, BTC, ETH and LTC. Connect makes it easy to organize and manage your finances and investments.</p>
                                         </div>
-                                            <div class="action col-first ml-10-decrease ">
+                                    </div>
+                                            <div class="action col-first ml-10-decrease mt-40-decrease ">
                                                 <a href="products/wallets.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm">Learn More</a>
                                             </div>
 
@@ -394,7 +398,7 @@
                 </div>
 
 
-                 <!-- Slide -->
+                <!-- Slide -->
                 <div class="Wallop-item has-background-image" data-background="assets/img/banners/hp-main-banner-connect2.jpg">
                     <div class="Wallop-overlay"></div>
                     <div class="Wallop-caption-wrapper">
@@ -402,14 +406,18 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-5">
                                     <div class="caption-inner">
+                                    <div class="fix-hight">
                                         <h1>Freedom in Travel. Discover Your <span class="gradient-text-blue-green">World On Crypto. </span> </h1>
-                                        <div class="caption-divider"></div>
-                                        <div class="caption-text bottommargin-sm">
-                                            <p>Connect's Visa Crypto Credit Cards are accepted at more than 46 million merchant locations in over 200 countries. We provide a secure and reliable way to explore your world using crypto, without losing its holding investment. </p>
+                                       <div class="caption-divider-purple"></div>
+                                        <div class="caption-text">
+                                             <p>Connect's Visa Crypto Credit Cards are accepted at more than 46 million merchant locations in over 200 countries. We provide a secure and reliable way to explore your world using crypto, without losing its holding investment. </p>
                                         </div>
-                                            <div class="action col-first ml-10-decrease">
-                                                <a href="products/cards.html#crypto-cards-features" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm">Learn More</a>
+                                    </div>
+                                            <div class="action col-first ml-10-decrease mt-40-decrease ">
+                                                <a href="products/cards.html#crypto-cards-features" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm" target="_top">Learn More</a>
                                             </div>
+
+
                                         
                                     </div>
                                 </div>
@@ -417,12 +425,15 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Slide -->
 
             <!-- Pagination dots -->
             <div class="Wallop-pagination">
+                
                 <button class="Wallop-dot Wallop-dot--current">go to item 1</button>
                 <button class="Wallop-dot">go to item 2</button>
                  <button class="Wallop-dot">go to item 3</button>
+                
             </div>
         </div>
     </div>
@@ -701,7 +712,7 @@
                     <div class="column is-6 topmargin-xmd">
                         <!-- Signup form -->
                          <!-- Begin Mailchimp Signup Form -->
-                        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                        <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                         <style type="text/css">
                             #mc_embed_signup{background:#f6f6f6; clear:left; font:14px Helvetica,Arial,sans-serif; }
                             /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -729,7 +740,7 @@
                             </div>
                         </form>
                         </div>
-                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                        
                         <!--End mc_embed_signup-->
                     </div>
                 </div>
@@ -847,29 +858,32 @@
         $(document).ready(function(){
           // Add smooth scrolling to all links
           $("a").on('click', function(event) {
+			if(this.href.indexOf("/") == -1){
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+				  // Prevent default anchor click behavior
+				  event.preventDefault();
 
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-              // Prevent default anchor click behavior
-              event.preventDefault();
+				  // Store hash
+				  var hash = this.hash;
 
-              // Store hash
-              var hash = this.hash;
+				  // Using jQuery's animate() method to add smooth page scroll
+				  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				  $('html, body').animate({
+					scrollTop: $(hash).offset().top
+				  }, 800, function(){
 
-              // Using jQuery's animate() method to add smooth page scroll
-              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-              $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-              });
-            } // End if
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				  });
+				} // End if
+			}
+            
           });
         });
         </script>
-     <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+		
 </body>
 
 </html>
