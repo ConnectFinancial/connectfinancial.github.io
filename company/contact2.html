@@ -30,6 +30,19 @@
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WK4D38H9JJ"></script>
 
+    
+    <!--COOKIE TRACKER -->
+    <script>
+        const urlParams = new URLSearchParams(location.search);
+        for (const [key, value] of urlParams) {
+            if(key=="referrer" && value!="") {
+                const date = new Date();
+                date.setDate(date.getDate() + 30);
+                document.cookie = "refcode=" + value + "; expires=/" + date.toUTCString() + "; path=/" + "; domain=connect.financial";
+            }
+        }
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXV052GJ43"></script>
     <script>
