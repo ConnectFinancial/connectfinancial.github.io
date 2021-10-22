@@ -362,10 +362,24 @@ i {
     left: 0px;
     padding: 15px 15px 15px 0;
 }
+
+.s-defi-menu{
+	width: 470px !important;
+    left: 0px;
+    padding: 15px 15px 15px 0;
+}
+
+
 .border-r-3px{
 	    border-right: 2px solid black;
 
 }
+
+.border-r-0px{
+	    border-right: 0px solid black;
+
+}
+
 
 .border-r-2px{
 	    border-right: 2px solid black;
@@ -21540,6 +21554,10 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 	margin: 100px;
 }
 
+.mt-1 {
+	margin-top: 1px;
+}
+
 .mt-5 {
 	margin-top: 5px;
 }
@@ -21739,6 +21757,10 @@ footer.colored-footer .footer-footer .footer-inner .social a i {
 
 .ml-80 {
 	margin-left: 80px;
+}
+
+.ml-1-decrease {
+	margin-left: -1px;
 }
 
 .ml-3-decrease {
