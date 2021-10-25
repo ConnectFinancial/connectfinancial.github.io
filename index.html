@@ -3,8 +3,64 @@
 
 <head>
 
+    <!--GOOGLE ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187963210-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-187963210-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXV052GJ43"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NXV052GJ43');
+    </script>
+
+    <!-- INTERCOM -->
+    <script>
+    window.intercomSettings = {
+    app_id: "fout4g33"
+    };
+    </script>
+
+    <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/fout4g33'
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fout4g33';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <!--CRAZYEGG-->
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0107/4608.js" async="async" ></script>
+
+
+    <!--COOKIE TRACKER -->
+    <script>
+        const urlParams = new URLSearchParams(location.search);
+        console.log(urlParams);
+        var ref = "";
+        for (const [key, val] of urlParams) {
+            console.log(key + " = " + val);
+            (key=="referrer" && val!="") ? ref = val : ref = "";
+        }
+        console.log("Cookie: " + ref);
+        if(ref!="") {
+            const expDate = new Date();
+            expDate.setDate(expDate.getDate() + 30);
+            console.log("Cookie 1: " + ref);
+            const cookie = "refcode="+ref+"; expires=/" + expDate.toUTCString() + "; path=/; domain=connect.financial";
+            document.cookie = cookie;
+            console.log("Cookie 2: " + cookie);
+	    }
+    </script>
+
     <script type="text/javascript" charset="UTF-8" src="https://cdn.cookie-script.com/s/d29aa24df65f2eb8bb330a134aeb4b8d.js"></script>
-    
+
     <script type="text/javascript" src="https://script.crazyegg.com/pages/scripts/0107/4608.js" async="async" ></script>
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
@@ -31,49 +87,6 @@
     <link id="theme-sheet" rel="stylesheet" href="assets/css/core.css">
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
 
-    <!--COOKIE TRACKER -->
-    <script>
-        const urlParams = new URLSearchParams(location.search);
-        for (const [key, value] of urlParams) {
-            if(key=="referrer" && value!="") {
-                const date = new Date();
-                date.setDate(date.getDate() + 30);
-                document.cookie = "refcode=" + value + "; expires=/" + date.toUTCString() + "; path=/" + "; domain=connect.financial";
-            }
-        }
-    </script>
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WK4D38H9JJ"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXV052GJ43"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-NXV052GJ43');
-    </script>
-
-
-    <script>
-    window.intercomSettings = {
-    app_id: "fout4g33"
-    };
-    </script>
-
-    <script>
-    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/fout4g33'
-    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fout4g33';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-    </script>
-
-   
-
-
-
-
 
 </head>
 
@@ -87,7 +100,7 @@
     <div class="hero type-1  is-cover is-relative is-fullheight" data-background="" data-color="#545375" data-color-opacity="0.3">
 
 
-    <!-- Hero and nav -->
+        <!-- Hero and nav -->
         <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
             <div class="container">
                 <!-- Brand -->
@@ -97,17 +110,17 @@
                         <img class="dark-logo switcher-logo" src="assets/img/logos/cf-logo-black.svg" alt="">
                     </a>
 
-                   
+
 
                     <!-- Responsive toggle -->
                     <div class="custom-burger" data-target="nav-menu">
                         <a class="responsive-btn" href="javascript:void(0);">
                             <span class="menu-toggle">
-                              <span class="icon-box-toggle">    
+                              <span class="icon-box-toggle">
                                   <span class="rotate">
                                       <i class="icon-line-top"></i>
                                       <i class="icon-line-center"></i>
-                                      <i class="icon-line-bottom"></i> 
+                                      <i class="icon-line-bottom"></i>
                                   </span>
                             </span>
                             </span>
@@ -116,22 +129,22 @@
                     <!-- /Responsive toggle -->
                 </div>
 
-               
+
                 <!-- Navbar menu -->
                 <div id="nav-menu" class="navbar-menu">
                      <!-- Navbar item -->
-                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile is-hidden-tablet ">
+                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
                         <a class="navbar-link poppins product-span" href="#demos">
                                 Products
                         </a>
-                        <div class="navbar-dropdown is-boxed is-medium s-product-menu d-flex" style="margin-left:-200px;">
+                        <div class="navbar-dropdown is-boxed is-medium s-product-menu d-flex custom-res-width" style="margin-left:-200px;">
                                 <!-- Dropdown item -->
-                               
+
                             <div>
                                 <div class="d-flex ml-25 " style="padding-right:10px;">
                                     <div class="border-r-3px">
                                         <h2 class="nav-h2">Spend & Earn</h2>
-                                       <div class="d-flex"> 
+                                       <div class="d-flex">
                                             <div class="d-flex ">
                                                   <!-- Dropdown item -->
                                                 <div class="p-0-15 ml-10 width-1-2 " >
@@ -149,7 +162,7 @@
                                                     </a>
                                                      <p><a href="products/earn.html" style="color:#000;">Earn on your holdings with no account limits, no lock-up periods and no minimums.</a></p>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
@@ -167,7 +180,7 @@
                                              <p><a href="products/wallets.html" style="color:#000;">Full control of your crypto and fiat with multiple wallets and reporting.</a></p>
                                         </div>
 
-                                         
+
                                         <!-- Dropdown item -->
                                         <div class="p-0-15 ml-20 width-1-2 " >
                                             <a class="navbar-item poppins is-menu bottommargin-xsm" href="products/buy-sell.html">
@@ -179,7 +192,7 @@
                                     </div>
                                 </div>
                            </div>
-                    </div>        
+                    </div>
                 </div>
              </div>
                         <!-- Mobile dropdown -->
@@ -200,25 +213,25 @@
                                     </li>
                                     <li>
                                         <a href="products/buy-sell.html">Buy/Sell</a>
-                                    </li> 
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
 
                     <!-- Navbar item -->
-                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile is-hidden-tablet ">
+                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
                         <a class="navbar-link poppins product-span" href="#demos">
-                                DeFi Platform
+                                DeFi
                         </a>
                         <div class="navbar-dropdown is-boxed is-medium d-flex s-defi-menu">
                                 <!-- Dropdown item -->
-                               
+
                             <div>
                                 <div class="d-flex ml-25 " style="padding-right:10px;">
                                     <div class="border-r-0px">
                                         <h2 class="nav-h2 ml-1-decrease">Buy, Hold & Stake</h2>
-                                       <div class="d-flex"> 
+                                       <div class="d-flex">
                                             <div class="d-flex ">
                                                  <!-- Dropdown item -->
                                                  <div class="p-0-15 p-0-25 mt-5-decrease mr-30">
@@ -229,30 +242,30 @@
                                                     <p><a href="products/tokens.html" style="color:#000;">Stake CNFI tokens to open a world of benefits and lower fees platform wide.</a></p>
                                                  </div>
                                                 <!-- Dropdown item -->
-                                                <div class="p-0-15 p-0-25 mr-10 mt-5-decrease" >
+                                                <div class="p-0-15 p-0-25 mr-5-decrease ml-5-decrease mt-5-decrease" >
                                                     <a class="navbar-item poppins is-menu bottommargin-xsm" href="https://token.connect.financial/" target="_blank">
                                                         <!--<i class="fas fa-fingerprint half-size"></i>-->
                                                         <span class="poppins ">DeFi Portal</span>
                                                     </a>
-                                                    <p><a href="https://token.connect.financial/" target="_blank" style="color:#000;">Easily buy, stake and manage your CNFI tokens in our intuitive DeFi platform. </a></p>
+                                                    <p><a href="https://token.connect.financial/" target="_blank" style="color:#000;">Manage staked CNFI and take advantage of daily staking bonuses and rewards. </a></p>
                                                 </div>
-                                               
+
                                             </div>
                                         </div>
                                     </div>
                                 <div>
                             </div>
                         </div>
-                                  
-                                   
-                            
-                    </div>        
+
+
+
+                    </div>
                 </div>
              </div>
                         <!-- Mobile dropdown -->
                         <div class="mobile-drop is-hidden-desktop">
                             <div class="mobile-drop-trigger">
-                                DeFi Platform <i class="material-icons">keyboard_arrow_right</i>
+                                DeFi <i class="material-icons">keyboard_arrow_right</i>
                             </div>
                             <div class="child-menu">
                                 <ul>
@@ -268,20 +281,20 @@
 
 
                          <!-- Navbar item -->
-                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile is-hidden-tablet ">
-                            
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile  ">
+
                             <a class="navbar-link poppins product-span " href="#demos">
                                 Company
                             </a>
-                            
-                            <div class="navbar-dropdown is-boxed is-medium s-company-menu d-flex ml-10">
+
+                            <div class="navbar-dropdown is-boxed is-medium s-company-menu d-flex ml-10 custom-res-ml" style="margin-left:-155px;">
                                 <!-- Dropdown item -->
-                               
+
                                 <div>
                                 <div class="d-flex2 ml-10">
                                     <div class="border-r-3px ml-10-decrease">
                                     <h2 class="nav-h2 ml-2">Future of Finance</h2>
-                                       <div class="d-flex"> 
+                                       <div class="d-flex">
                                             <div class="d-flex2 ">
                                                  <div class="p-0-15 ml-20">
                                                     <a class="navbar-item poppins is-menu bottommargin-xsm" href="company/about.html">
@@ -303,7 +316,7 @@
                                     </div>
 
                             <div>
-                                    
+
                                     <div class="d-grid topmargin-sm ml-5">
                                  <!-- Dropdown item -->
                                  <div class="p-0 m-l-13 ml-35 ">
@@ -329,7 +342,7 @@
                            </div>
                            </div>
                             </div>
-                            
+
                             </div>
                         </div>
                         <!-- Mobile dropdown -->
@@ -353,12 +366,12 @@
                                     </li>
                                     <li>
                                         <a href="company/contact.html">Contact</a>
-                                    </li>  
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
-                    
+
 
                     <!-- Navbar end -->
                     <div class="navbar-end is-hidden-mobile is-hidden-tablet">
@@ -383,7 +396,7 @@
                             <p><a href="https://client.connect.financial/#/auth/login" target="_blank" class="navbar-link button  btn-align btn-outlined is-bold rounded pb-20">
                                 Login
                             </a></p>
-                      
+
                             <a href="https://client.connect.financial/#/auth/register" target="_blank" class=" navbar-link button button-cta btn-align secondary-btn btn-solid is-bold rounded " >
                                 Sign Up
                             </a>
@@ -391,19 +404,10 @@
                     </div>
 
 
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </nav>
-      
+
 
       <!-- Hero Wallop Slider -->
         <div class="Wallop Wallop--v2 Wallop--fade" data-autoplay="10000" data-speed="10000" data-loop="false">
@@ -416,19 +420,18 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-5">
                                     <div class="caption-inner" >
-                                        <div class="fix-hight mt-70-decrease">
+                                        <div class="mt-70-decrease">
                                             <h1>CONNECT <Br><span class="gradient-text-teals2">Your Crypto.</span><br> Your World.<br><span class="gradient-text-teals2"> Your Life.</span></h1>
                                             <div class="caption-divider-green"></div>
                                             <div class="caption-text bottommargin-sm ">
-                                                <p>Unlock the purchasing power of crypto without needing to sell your digital assets. Access the world's first true crypto backed credit card without the need for lengthy approvals or credit checks.</p>
+                                                <p>Unlock the purchasing power of crypto without needing to sell your digital assets. Access the world's first true crypto backed credit card without the need for lengthy approvals or credit checks.<br>
+                                                <a href="products/cards.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-md" style="margin-left: -2px;">Learn More</a></p>
                                             </div>
                                         </div>
-                                            <div class="action col-first ml-10-decrease mt-10-decrease">
-                                                <a href="products/cards.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm ">Learn More</a>
-                                            </div>
 
-                      
-                                       
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -443,19 +446,16 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-6">
                                     <div class="caption-inner">
-                                    <div class="fix-hight mt-30-decrease">
+                                    <div class="mt-30-decrease">
                                         <h1><span class="gradient-text-gold-red">Multiple Wallets.</span><br> Hundreds of Coins With Full Flexibility. </h1>
                                        <div class="caption-divider-purple"></div>
                                         <div class="caption-text bottommargin-sm">
-                                            <p>With a range of innovative wallets, do more with your cash and crypto. Buy, sell and trade, earn interest, borrow against your crypto and save with confidence. Create unlimited wallets to get the most from your investments.</p>
+                                            <p>With a range of innovative wallets, do more with your cash and crypto. Buy, sell and trade, earn interest, borrow against your crypto and save with confidence. Create unlimited wallets to get the most from your investments.<br>
+                                                <a href="products/wallets.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-md" style="margin-left: -2px;">Learn More</a></p>
                                         </div>
                                     </div>
-                                            <div class="action col-first ml-10-decrease mt-70-decrease ">
-                                                <a href="products/wallets.html" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm">Learn More</a>
-                                            </div>
 
 
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -472,19 +472,17 @@
                             <div class="columns is-gapless is-vcentered">
                                 <div class="column is-5">
                                     <div class="caption-inner">
-                                    <div class="fix-hight mt-70-decrease">
+                                    <div class=" mt-70-decrease">
                                         <h1>Freedom in Travel. Discover Your <br><span class="gradient-text-blue-green">World On Crypto. </span> </h1>
                                        <div class="caption-divider-purple"></div>
                                         <div class="caption-text bottommargin-sm">
-                                             <p>Connect's Visa Crypto Credit Cards are accepted at more than 46 million merchant locations in over 200 countries. Borrow against your crypto and access industry leading benefits including transaction insurance, travel perks and exclusive concierge service.</p>
+                                             <p>Connect's Visa Crypto Credit Cards are accepted at more than 46 million merchant locations in over 200 countries. Borrow against your crypto and access industry leading benefits including transaction insurance, travel perks and exclusive concierge service.<br>
+                                                <a href="products/cards.html#crypto-cards-features" class="button button-cta btn-align btn-solid is-bold rounded topmargin-md" style="margin-left: -2px;">Learn More</a></p>
                                         </div>
                                     </div>
-                                            <div class="action col-first ml-10-decrease mt-40-decrease ">
-                                                <a href="products/cards.html#crypto-cards-features" class="button button-cta btn-align btn-solid is-bold rounded topmargin-sm" target="_top">Learn More</a>
-                                            </div>
 
 
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -494,7 +492,7 @@
                  <!-- Slide -->
 
             <!-- Pagination dots -->
-			<button class="" id="prev"></button>
+			<button class="is-hidden-desktopsm" id="prev"></button>
             <div class="Wallop-pagination">
                 <button class="Wallop-dot Wallop-dot--current">go to item 1</button>
                 <button class="Wallop-dot">go to item 2</button>
@@ -516,13 +514,13 @@
                 <div class="column is-5 is-offset-1">
                     <h2 class="title quick-feature is-smaller text-bold no-margin gradient-text-dkblue-teal-green">
                        CONNECT Your World. Your Crypto. Your Life.
-                       
+
                     </h2>
                     <div class="title-divider topmargin-sm bottommargin-sm"></div>
                     <span class="section-feature-description">Enjoy a Visa credit card powered by your crypto holdings with zero-touch on your coin value. It’s time to live more and do more with your crypto.</span>
                     <div class="pt-10 pb-10 ml-10-decrease is-hidden-mobile">
                         <a href="products/cards.html" class="button button-cta btn-align btn-solid is-bold is-black rounded topmargin-sm">
-                            Discover Crypto Credit Cards 
+                            Discover Crypto Credit Cards
                         </a>
                     </div>
                 </div>
@@ -530,8 +528,8 @@
                 <div class="column is-6 has-text-centered is-hidden-mobile">
                     <div class="masked-image">
                         <img class="main-image" src="assets/img/home/inline-cards3.jpg" data-animate="fadeInRight" data-delay="200" alt="Connect Crypto Visa Cards">
-                      
-                      
+
+
                     </div>
                 </div>
             </div>
@@ -620,7 +618,7 @@
 
              <div class="pt-10 pb-10 is-hidden-desktop"  style="text-align: center;">
                 <a href="products/cards.html" class="button button-cta btn-align btn-solid is-bold is-black rounded topmargin-sm">
-                     Discover Crypto Credit Cards 
+                     Discover Crypto Credit Cards
                 </a>
             </div>
 
@@ -630,7 +628,7 @@
     <!--How It Works-->
     <div id="solution" class="section " style="background-color: #F5F5FC;">
         <div class="container">
-           
+
 
             <!-- Feature -->
             <div class="columns is-vcentered topmargin-md">
@@ -719,10 +717,10 @@
                     </div>
                 </div>
                 <!-- Benefit box -->
-              
+
             </div>
 
-           
+
                 <div class="pt-10 pb-10 is-hidden-desktop" style="text-align: center;">
                     <a href="products/wallets.html" class="button button-cta btn-align btn-solid is-bold is-black rounded topmargin-sm">
                             Discover Wallets
@@ -740,7 +738,7 @@
                 <h2 class="title main-title has-text-centered light-text poppins" data-animate="fadeInUp" data-delay="200" style="font-size: 55px;">
                     <b>Grow Your Crypto.</b>
                  </h2>
-          
+
 
                     <p class="section-subtitle has-text-centered light-text" data-animate="fadeInUp" data-delay="600">We know the value in holding crypto assets to extend their full appreciation potential. Our products allow you to enjoy the benefits of your crypto portfolio with zero-touch on your investment all while you earn on your holdings.</p>
 
@@ -761,7 +759,7 @@
       <!-- Somethings Coming -->
     <div class="section section-feature-grey">
         <div class="container has-text-centered bottommargin-xxsm ">
-            
+
                 <div class="columns  is-vcentered ">
                     <div class="column is-6 has-text-left">
 
@@ -791,7 +789,7 @@
                             <label for="mce-FNAME" class=" poppins" style="margin-top:10px;">First Name </label>
                             <input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="border: 1px solid #e5e5e5 !important; border-radius: 6px; height: 40px; font-family:Poppin,sans-serif; padding-left:5px;">
                         </div>
-                      
+
                         <div class="mc-field-group size1of2">
                             <label for="mce-EMAIL" class=" poppins">Email Address  <span class="asterisk">*</span>
                         </label>
@@ -806,24 +804,24 @@
                             </div>
                         </form>
                         </div>
-                        
+
                         <!--End mc_embed_signup-->
                     </div>
                 </div>
 
 
 
-              
+
             </div>
         </div>
             <!-- END Somethings Coming -->
 
 
 
- 
 
 
-    
+
+
 
  <!-- Dark footer -->
     <footer id="dark-footer" class="footer footer-dark">
@@ -838,11 +836,25 @@
                             <li><a href="products/cards.html">Crypto Cards</a></li>
                             <li><a href="products/earn.html">Earn</a></li>
                             <li><a href="products/wallets.html">Wallet</a></li>
-                            <li><a href="products/tokens.html">Tokens</a></li>
                             <li><a href="products/buy-sell.html">Buy / Sell</a></li>
                         </ul>
                     </div>
                 </div>
+
+
+                 <div class="column">
+                    <div class="footer-column">
+                        <div class="footer-header">
+                            <h3>DeFi </h3>
+                        </div>
+                        <ul class="link-list">
+                            <li><a href="products/tokens.html">Tokens</a></li>
+                            <li><a href="https://token.connect.financial/" target="_blank">DeFi Portal</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
@@ -883,7 +895,7 @@
                         <div class="footer-header">
                             <nav class="level is-mobile">
                                 <div class="level-left level-social">
-                                    
+
                                     <a href="https://twitter.com/ConnectWallet" target="_blank" class="level-item">
                                         <span class="icon"><i class="fa fa-twitter"></i></span>
                                     </a>
@@ -893,7 +905,7 @@
                                     <!--<a href="#" class="level-item">
                                         <span class="icon"><i class="fa fa-linkedin"></i></span>
                                     </a>-->
-                                  
+
                                 </div>
                             </nav>
                         </div>
@@ -908,15 +920,15 @@
     <!-- /Dark footer -->
 
 
-   
+
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
-  
+
 
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/functions.js"></script>
-  
+
 
     <script src="assets/js/app.js"></script>
     <script src="assets/js/core.js"></script>
@@ -944,12 +956,12 @@
 				  });
 				} // End if
 			}
-            
+
           });
         });
         </script>
 		<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-		
+
 </body>
 
 </html>

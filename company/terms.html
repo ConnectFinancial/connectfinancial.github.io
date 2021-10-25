@@ -2,6 +2,65 @@
 <html lang="en">
 
 <head>
+        <!--GOOGLE ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187963210-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-187963210-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXV052GJ43"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NXV052GJ43');
+    </script>
+
+    <!-- INTERCOM -->
+    <script>
+    window.intercomSettings = {
+    app_id: "fout4g33"
+    };
+    </script>
+
+    <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/fout4g33'
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fout4g33';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+    </script>
+
+    <!--CRAZYEGG-->
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0107/4608.js" async="async" ></script>
+
+
+    <!--COOKIE TRACKER -->
+    <script>
+        const urlParams = new URLSearchParams(location.search);
+        console.log(urlParams);
+        for (const [key, value] of urlParams) {
+            console.log(key + " = " + value);
+            if(key=="referrer" && value!="") {
+                var allCookieArray = document.cookie.split(';');
+                for(var i=0; i<allCookieArray.length; i++) {
+                    var temp = allCookieArray[i].trim();
+                    if (temp.indexOf("refcode")>0)
+                        document.cookie = "refcode=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/" + "; domain=connect.financial";
+                }
+
+                const date = new Date();
+                date.setDate(date.getDate() + 30);
+                document.cookie = "refcode=" + value + "; expires=/" + date.toUTCString() + "; path=/" + "; domain=connect.financial";
+                break;
+            }
+        }
+    </script>
+
+
    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/d29aa24df65f2eb8bb330a134aeb4b8d.js"></script>
 
     <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0107/4608.js" async="async" ></script>
@@ -31,28 +90,6 @@
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WK4D38H9JJ"></script>
 
-        <!--COOKIE TRACKER -->
-    <script>
-        const urlParams = new URLSearchParams(location.search);
-        for (const [key, value] of urlParams) {
-            if(key=="referrer" && value!="") {
-                const date = new Date();
-                date.setDate(date.getDate() + 30);
-                document.cookie = "refcode=" + value + "; expires=/" + date.toUTCString() + "; path=/" + "; domain=connect.financial";
-            }
-        }
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXV052GJ43"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-NXV052GJ43');
-    </script>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        
     <script>
@@ -63,17 +100,6 @@
         });
     </script>
 
-    <script>
-    window.intercomSettings = {
-    app_id: "fout4g33"
-    };
-    </script>
-
-    <script>
-    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/fout4g33'
-    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/fout4g33';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-    </script>
-    
 
 </head>
 
@@ -83,7 +109,7 @@
     <!-- Hero and nav -->
     <div class="hero is-theme-primary" style="background-color: #000;">
 
-          <!-- Hero and nav -->
+        <!-- Hero and nav -->
         <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
             <div class="container">
                 <!-- Brand -->
@@ -93,17 +119,17 @@
                         <img class="dark-logo switcher-logo" src="../assets/img/logos/cf-logo-black.svg" alt="">
                     </a>
 
-                   
+
 
                     <!-- Responsive toggle -->
                     <div class="custom-burger" data-target="nav-menu">
                         <a class="responsive-btn" href="javascript:void(0);">
                             <span class="menu-toggle">
-                              <span class="icon-box-toggle">    
+                              <span class="icon-box-toggle">
                                   <span class="rotate">
                                       <i class="icon-line-top"></i>
                                       <i class="icon-line-center"></i>
-                                      <i class="icon-line-bottom"></i> 
+                                      <i class="icon-line-bottom"></i>
                                   </span>
                             </span>
                             </span>
@@ -112,40 +138,40 @@
                     <!-- /Responsive toggle -->
                 </div>
 
-               
+
                 <!-- Navbar menu -->
                 <div id="nav-menu" class="navbar-menu">
                      <!-- Navbar item -->
-                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile is-hidden-tablet">
+                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
                         <a class="navbar-link poppins product-span" href="#demos">
                                 Products
                         </a>
-                        <div class="navbar-dropdown is-boxed is-medium s-product-menu d-flex" style="margin-left:-200px;">
+                        <div class="navbar-dropdown is-boxed is-medium s-product-menu d-flex custom-res-width" style="margin-left:-200px;">
                                 <!-- Dropdown item -->
-                               
+
                             <div>
                                 <div class="d-flex ml-25 " style="padding-right:10px;">
                                     <div class="border-r-3px">
                                         <h2 class="nav-h2">Spend & Earn</h2>
-                                       <div class="d-flex"> 
+                                       <div class="d-flex">
                                             <div class="d-flex ">
-                                                 <!-- Dropdown item -->
-                                                 <div class="p-0-15 p-0-25 mt-5-decrease">
+                                                  <!-- Dropdown item -->
+                                                <div class="p-0-15 ml-10 width-1-2 " >
                                                     <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/cards.html">
-                                                        <!--<i class="fas fa-info-circle half-size"></i>-->
-                                                        <span class="poppins ">Crypto Credit</span>
+                                                    <!--<i class="fas fa-credit-card half-size"></i>-->
+                                                     <span class="poppins" align="left">Crypto Credit</span>
                                                     </a>
-                                                    <p><a href="../products/cards.html" style="color:#000;">Enjoy credit control with a visa credit card fueled by your crypto with tiered low interest rates.</a></p>
-                                                 </div>
-                                                <!-- Dropdown item -->
-                                                <div class="p-0-15 p-0-25 mr-20 mt-5-decrease" >
-                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/earn.html">
-                                                        <!--<i class="fas fa-fingerprint half-size"></i>-->
-                                                        <span class="poppins ">Crypto Earn</span>
-                                                    </a>
-                                                    <p><a href="../products/earn.html" style="color:#000;">Earn on your holdings with no account limits, no lock-up periods and no minimums.</a></p>
+                                                     <p><a href="../products/cards.html" style="color:#000;">Enjoy credit control with a visa credit card fueled by your crypto with tiered low interest rates.</a></p>
                                                 </div>
-                                               
+                                                         <!-- Dropdown item -->
+                                                <div class="p-0-15 ml-10 width-1-2 " >
+                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/earn.html">
+                                                    <!--<i class="fas fa-credit-card half-size"></i>-->
+                                                     <span class="poppins" align="left">Crypto Earn</span>
+                                                    </a>
+                                                     <p><a href="../products/earn.html" style="color:#000;">Earn on your holdings with no account limits, no lock-up periods and no minimums.</a></p>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -153,9 +179,9 @@
 
 
                                     <h2 class="nav-h3 ml-8">Buy, Sell & Hold</h2>
-                                    <div class="d-flex ml-20">
+                                    <div class="d-flex ml-20 mt-1">
                                         <!-- Dropdown item -->
-                                        <div class="p-0-15 ml-10 width-1-3 " >
+                                        <div class="p-0-15 ml-10 width-1-2 " >
                                             <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/wallets.html">
                                             <!--<i class="fas fa-credit-card half-size"></i>-->
                                              <span class="poppins" align="left">Wallets</span>
@@ -163,16 +189,9 @@
                                              <p><a href="../products/wallets.html" style="color:#000;">Full control of your crypto and fiat with multiple wallets and reporting.</a></p>
                                         </div>
 
-                                         <!-- Dropdown item -->
-                                        <div class="p-0-15 ml-10 width-1-3 " >
-                                            <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/tokens.html">
-                                            <!--<i class="fas fa-wallet half-size"></i>-->
-                                            <span class="poppins">Tokens</span>
-                                            </a>
-                                            <p><a href="../products/tokens.html" style="color:#000;">Stake CNFI tokens to open a world of benefits and lower fees platform wide.</a></p>
-                                        </div>
+
                                         <!-- Dropdown item -->
-                                        <div class="p-0-15 ml-20 width-1-3 " >
+                                        <div class="p-0-15 ml-20 width-1-2 " >
                                             <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/buy-sell.html">
                                             <!--<i class="fas fa-exchange-alt half-size"></i>-->
                                             <span class="poppins ">Buy / Sell</span>
@@ -182,7 +201,7 @@
                                     </div>
                                 </div>
                            </div>
-                    </div>        
+                    </div>
                 </div>
              </div>
                         <!-- Mobile dropdown -->
@@ -203,30 +222,88 @@
                                     </li>
                                     <li>
                                         <a href="../products/buy-sell.html">Buy/Sell</a>
-                                    </li> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    <!-- Navbar item -->
+                    <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile ">
+                        <a class="navbar-link poppins product-span" href="#demos">
+                                DeFi
+                        </a>
+                        <div class="navbar-dropdown is-boxed is-medium d-flex s-defi-menu">
+                                <!-- Dropdown item -->
+
+                            <div>
+                                <div class="d-flex ml-25 " style="padding-right:10px;">
+                                    <div class="border-r-0px">
+                                        <h2 class="nav-h2 ml-1-decrease">Buy, Hold & Stake</h2>
+                                       <div class="d-flex">
+                                            <div class="d-flex ">
+                                                 <!-- Dropdown item -->
+                                                 <div class="p-0-15 p-0-25 mt-5-decrease mr-30">
+                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="../products/tokens.html">
+                                                        <!--<i class="fas fa-info-circle half-size"></i>-->
+                                                        <span class="poppins ">Tokens</span>
+                                                    </a>
+                                                    <p><a href="../products/tokens.html" style="color:#000;">Stake CNFI tokens to open a world of benefits and lower fees platform wide.</a></p>
+                                                 </div>
+                                                <!-- Dropdown item -->
+                                                <div class="p-0-15 p-0-25 mr-5-decrease ml-5-decrease mt-5-decrease" >
+                                                    <a class="navbar-item poppins is-menu bottommargin-xsm" href="https://token.connect.financial/" target="_blank">
+                                                        <!--<i class="fas fa-fingerprint half-size"></i>-->
+                                                        <span class="poppins ">DeFi Portal</span>
+                                                    </a>
+                                                    <p><a href="https://token.connect.financial/" target="_blank" style="color:#000;">Manage staked CNFI and take advantage of daily staking bonuses and rewards. </a></p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+             </div>
+                        <!-- Mobile dropdown -->
+                        <div class="mobile-drop is-hidden-desktop">
+                            <div class="mobile-drop-trigger">
+                                DeFi <i class="material-icons">keyboard_arrow_right</i>
+                            </div>
+                            <div class="child-menu">
+                                <ul>
                                     <li>
                                         <a href="../products/tokens.html">Tokens</a>
-                                    </li>  
+                                    </li>
+                                     <li>
+                                        <a href="https://token.connect.financial/" target="_blank">DeFi Portal</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
 
                          <!-- Navbar item -->
-                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile is-hidden-tablet">
-                            
+                          <div class="navbar-item has-dropdown is-hoverable is-hidden-mobile  ">
+
                             <a class="navbar-link poppins product-span " href="#demos">
                                 Company
                             </a>
-                            
-                            <div class="navbar-dropdown is-boxed is-medium s-company-menu d-flex ml-10">
+
+                            <div class="navbar-dropdown is-boxed is-medium s-company-menu d-flex ml-10 custom-res-ml" style="margin-left:-155px;">
                                 <!-- Dropdown item -->
-                               
+
                                 <div>
                                 <div class="d-flex2 ml-10">
                                     <div class="border-r-3px ml-10-decrease">
                                     <h2 class="nav-h2 ml-2">Future of Finance</h2>
-                                       <div class="d-flex"> 
+                                       <div class="d-flex">
                                             <div class="d-flex2 ">
                                                  <div class="p-0-15 ml-20">
                                                     <a class="navbar-item poppins is-menu bottommargin-xsm" href="about.html">
@@ -248,7 +325,7 @@
                                     </div>
 
                             <div>
-                                    
+
                                     <div class="d-grid topmargin-sm ml-5">
                                  <!-- Dropdown item -->
                                  <div class="p-0 m-l-13 ml-35 ">
@@ -274,7 +351,7 @@
                            </div>
                            </div>
                             </div>
-                            
+
                             </div>
                         </div>
                         <!-- Mobile dropdown -->
@@ -298,14 +375,13 @@
                                     </li>
                                     <li>
                                         <a href="contact.html">Contact</a>
-                                    </li>  
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
-                    
 
-                   
+
                     <!-- Navbar end -->
                     <div class="navbar-end is-hidden-mobile is-hidden-tablet">
                         <!-- Signup button -->
@@ -330,19 +406,18 @@
                                 Login
                             </a></p>
 
-                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class="navbar-link button button-cta btn-align secondary-btn btn-solid is-bold rounded">
+                            <a href="https://client.connect.financial/#/auth/register" target="_blank" class=" navbar-link button button-cta btn-align secondary-btn btn-solid is-bold rounded " >
                                 Sign Up
                             </a>
                         </div>
                     </div>
 
 
-
-                      
-                    </div>
                 </div>
             </div>
         </nav>
+
+      
       
 
 
